@@ -31,8 +31,8 @@
   <a href="https://www.patreon.com/cw/MiGiTiVlessSubscriptions/shop?sort=published_at">
     <img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon">
   </a>
-  <a href="#-поддержать-проект-donate">
-    <img src="https://img.shields.io/badge/TON%20Wallet-0088CC?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet">
+  <a href="https://ton.org/address/UQB4NY_1ula9p2YJpM0kHPEjbJOmOUK1JNwYUNu9_T2TlAbt">
+    <img src="https://img.shields.io/badge/TON%20Wallet-UQB4NY...2TlAbt-0088CC?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet">
   </a>
 </p>
 
@@ -60,11 +60,46 @@
 
 ---
 
-## 💡 Как обновить подписки через Яндекс Переводчик
+## 💡 Обновление при белых списках
 
-Если GitHub блокируется вашим провайдером или подписка никак не хочет обновляться напрямую в клиенте, есть простой способ обхода:
+Если GitHub блокируется вашим провайдером или подписка никак не хочет обновляться напрямую в клиенте, можно использовать зеркалирование через Яндекс Переводчик.
 
-Подписки можно прогнать через проксирующий интерфейс Яндекс Переводчика. Для этого заменяйте ссылку в клиенте на следующую конструкцию:
+Готовые проксированные ссылки для вставки в клиент:
 
-```text
-[https://translate.yandex.ru/translate?url=ПОДПИСКА&lang=de-de](https://translate.yandex.ru/translate?url=ПОДПИСКА&lang=de-de)
+* **01 MIGITI WHITELIST**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
+* **02 MIGITI FAST PING**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
+* **03 MIGITI UNIVERSAL**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
+* **04 MIGITI STEALTH NEXTGEN**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
+
+> Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за этот полезный лайфхак!
+
+---
+
+## 🔗 Готовые Подписки
+
+Прямые ссылки для добавления в ваши приложения (v2rayN, Sing-Box, NekoBox, Happ и др.):
+
+| № | Название | Описание | Ссылка на подписку |
+|---|---|---|---|
+| **01** | **MIGITI WHITELIST** | Оптимизировано для работы с российскими сервисами (Яндекс, VK, Госуслуги) | [`1.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt) |
+| **02** | **MIGITI FAST PING** | Быстрые серверы (пинг до 90 мс) для комфортного сёрфинга и игр | [`2.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt) |
+| **03** | **MIGITI UNIVERSAL** | Сборная подписка с разными протоколами (VLESS, VMess, Trojan, Shadowsocks) | [`3.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt) |
+| **04** | **MIGITI STEALTH NEXTGEN** | Конфигурации VLESS REALITY и современные UDP-протоколы | [`4.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt) |
+
+---
+
+## 💳 Поддержать проект (Donate)
+
+Проект полностью бесплатный, но ручной отбор, постоянный отсев мёртвых серверов и поддержка базы требуют времени. Если мой проект вам пригодился, буду благодарен за поддержку:
+
+* 🟢 **Сбербанк**: [Перевести через Сбер](https://messenger.online.sberbank.ru/sl/HB0CuMt88gO20oajp)
+* 🧡 **Patreon**: [Мой Patreon](https://www.patreon.com/cw/MiGiTiVlessSubscriptions/shop?sort=published_at)
+* 🎁 **DonationAlerts**: [donationalerts.com/r/diagomalacco](https://www.donationalerts.com/r/diagomalacco)
+* 💎 **TON Wallet**: `UQB4NY_1ula9p2YJpM0kHPEjbJOmOUK1JNwYUNu9_T2TlAbt`
+
+---
+
+## 📬 Обратная связь
+
+* **Email**: `Fageter@protonmail.com`
+* **GitHub Issues**: Пишите вопросы, замечания и предложения в разделе [Issues](https://github.com/misha12333211-ctrl/proxy-subs/issues) репозитория.

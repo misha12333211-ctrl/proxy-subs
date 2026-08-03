@@ -12,9 +12,6 @@
   </a>
   <br>
   <img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-brightgreen?style=for-the-badge" alt="Open Source">
-  <a href="mailto:Fageter@protonmail.com">
-    <img src="https://img.shields.io/badge/Email-Fageter%40protonmail.com-007EC6?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email">
-  </a>
 </p>
 
 Бесплатный коллектор подписок и публичных прокси-серверов V2Ray / Xray с регулярной очисткой, фильтрацией задержки и отбором рабочих конфигов.

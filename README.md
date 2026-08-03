@@ -1,22 +1,19 @@
 # 🌐 MiGiTi Proxy Subscriptions
 
 <p align="center">
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/stargazers](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)">
-    <img src="[https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&label=Stars&color=007EC6](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&label=Stars&color=007EC6)" alt="Stars">
+  <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
+    <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Stars">
   </a>
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs](https://github.com/misha12333211-ctrl/proxy-subs)">
-    <img src="[https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&label=Visitors&color=007EC6&style=for-the-badge](https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&label=Visitors&color=007EC6&style=for-the-badge)" alt="Visitors">
+  <a href="https://github.com/misha12333211-ctrl/proxy-subs/issues">
+    <img src="https://img.shields.io/github/issues/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Issues">
   </a>
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/issues](https://github.com/misha12333211-ctrl/proxy-subs/issues)">
-    <img src="[https://img.shields.io/github/issues/misha12333211-ctrl/proxy-subs?style=for-the-badge&label=Issues&color=007EC6](https://img.shields.io/github/issues/misha12333211-ctrl/proxy-subs?style=for-the-badge&label=Issues&color=007EC6)" alt="Issues">
+  <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
+    <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Last Commit">
   </a>
   <br>
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/commits/main](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)">
-    <img src="[https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=flat-square&label=Last%20Commit&color=007EC6](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=flat-square&label=Last%20Commit&color=007EC6)" alt="Last Commit">
-  </a>
-  <img src="[https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-brightgreen?style=flat-square](https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-brightgreen?style=flat-square)" alt="Open Source">
+  <img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-brightgreen?style=for-the-badge" alt="Open Source">
   <a href="mailto:Fageter@protonmail.com">
-    <img src="[https://img.shields.io/badge/Email-Fageter%40protonmail.com-007EC6?style=flat-square&logo=protonmail&logoColor=white](https://img.shields.io/badge/Email-Fageter%40protonmail.com-007EC6?style=flat-square&logo=protonmail&logoColor=white)" alt="Email">
+    <img src="https://img.shields.io/badge/Email-Fageter%40protonmail.com-007EC6?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email">
   </a>
 </p>
 
@@ -62,7 +59,7 @@
 ---
 
 <details>
-<summary>📱 <b>Настройка v2rayNG</b></summary>
+<summary>📱 <b>Настройка v2rayNG</b> (Скачать: <a href="https://github.com/2dust/v2rayNG/releases">Releases</a>)</summary>
 
 <br>
 
@@ -83,7 +80,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Настройка Husi</b></summary>
+<summary>📱 <b>Настройка Husi</b> (Скачать: <a href="https://github.com/xchacha20-poly1305/husi/releases">Releases</a>)</summary>
 
 <br>
 
@@ -101,7 +98,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Настройка Exclave</b></summary>
+<summary>📱 <b>Настройка Exclave</b> (Скачать: <a href="https://github.com/ExclaveNetwork/Exclave/releases">Releases</a>)</summary>
 
 <br>
 
@@ -118,6 +115,16 @@
 | **Дополнительно** | 🟢 FakeDNS <br> 🟢 Включить **Wakelock** |
 
 </details>
+
+---
+
+## 🛡️ Блокировка рекламы и аналитики (включая YouTube)
+
+Я очень долго искал рабочий способ заблокировать рекламу в YouTube и системные трекеры. В итоге я создал собственную маршрутизацию. 
+
+Чтобы избавиться от рекламы, создайте в вашем клиенте **новое правило маршрутизации** со значением действия **«Блокировать / Block»** и скопируйте туда следующий список доменов и регулярных выражений:
+
+`firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,full:s.youtube.com,full:video-stats.l.google.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:s.youtube.com,domain:video-stats.l.google.com,domain:exile.e.youtube.com,domain:google-analytics.com,domain:ssl.google-analytics.com,domain:stats.g.doubleclick.net,regexp:^.*youtube.*\/ptracking$,regexp:^.*youtube.*\/stream_204$,regexp:^.*youtube.*\/gen_204$,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,com.sec.android.app.sbrowser,com.samsung.android.messaging,com.facebook.orca,com.whatsapp,com.android.chrome,com.google.android.googlequicksearchbox,com.android.vending,com.google.android.apps.maps,connectivitycheck.gstatic.com,telemetry.google.com,google-analytics.com,ssl.google-analytics.com,analytics.google.com,firebaseio.com,firebase-settings.crashlytics.com,crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,app-measurement.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com,servicesupport.hicloud.com,pebed.dmevent.net,telemetry.api.swiftkey.com,esa-reg-eup.myoppo.com,ifotaeu.realmemobile.com,ifotaus.realmemobile.com,domain:bixbywelcome.samsung.com,domain:bixby.samsung.com,domain:customization.samsung.com,domain:samsungcloud.com,domain:account.samsung.com,domain:legal.samsung.com,domain:galaxyapps.samsung.com,domain:fota-cloud-dn.ospserver.net,domain:oemprd.samsungcloudsolution.com,domain:telemetry.darkness.google,domain:android.bugreport.google.com,domain:location.googleapis.com,domain:coauth.googleapis.com,domain:grandcentral.googleapis.com,domain:speech.googleapis.com,domain:appsflyer.com,domain:appflyer.com,domain:amplitude.com,domain:api.amplitude.com,domain:mixpanel.com,domain:api.mixpanel.com,domain:flurry.com,domain:data.flurry.com,domain:onesignal.com,domain:branch.io,domain:api2.branch.io,domain:bugsnag.com,domain:notify.bugsnag.com,regexp:^analytics\..*$,regexp:^telemetry\..*$,regexp:^.*metrics.*$,regexp:^.*log-stat.*$,domain:time.android.com,domain:time.google.com,domain:time.windows.com`
 
 ---
 
@@ -147,16 +154,16 @@
 > Если GitHub блокируется вашим провайдером, используйте эти зеркала для обновления. *(Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за лайфхак!)*
 
 * ⚪ **01 MIGITI WHITELIST**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de)`
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
 
 * ⚡ **02 MIGITI FAST PING**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de)`
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
 
 * 🌐 **03 MIGITI UNIVERSAL**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de)`
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
 
 * 🥷 **04 MIGITI STEALTH NEXTGEN**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de)`
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
 
 ---
 

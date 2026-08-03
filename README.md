@@ -54,12 +54,12 @@
 * `1.1.1.1`
 * `77.88.8.8`
 * `dns.alidns.com`
-* `https://dns.astracat.ru/dns-query` (или `.../DNS-QUERY`)
+* `https://dns.astracat.ru/DNS-QUERY`
 
 ---
 
 <details>
-<summary>📱 <b>Настройка v2rayNG</b> (Скачать: <a href="https://github.com/2dust/v2rayNG/releases">Releases</a>)</summary>
+<summary>📱 <b>Настройка v2rayNG</b> (Скачать: <a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Releases</a>)</summary>
 
 <br>
 

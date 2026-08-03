@@ -7,6 +7,10 @@
   <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
     <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Last Commit">
   </a>
+  <a href="https://github.com/misha12333211-ctrl/proxy-subs">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge" alt="Visitors Count">
+</a>
+
 </p>
 
 Бесплатный коллектор подписок и публичных прокси-серверов V2Ray / Xray с регулярной очисткой, фильтрацией задержки и отбором рабочих конфигов.

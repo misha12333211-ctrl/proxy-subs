@@ -4,9 +4,6 @@
   <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
     <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Stars">
   </a>
-  <a href="https://github.com/misha12333211-ctrl/proxy-subs/issues">
-    <img src="https://img.shields.io/github/issues/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Issues">
-  </a>
   <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
     <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Last Commit">
   </a>
@@ -23,6 +20,45 @@
 Привет! Я давно увлечён темой обхода блокировок, настройкой прокси и апгрейдом домашнего интернета. Больше года я являюсь постоянным читателем канала **Киберпортал** — именно их контент и активное сообщество вдохновили меня погрузиться во всё это с головой.
 
 Базу подписок я собираю вручную: ищу свежие конфигурации в открытом доступе, прогоняю их через тесты и отбираю только те, которые действительно работают, держат стабильную связь и дают адекватный пинг.
+
+---
+
+## 🔗 Ссылки на подписки
+
+Скопируйте и вставьте нужную ссылку в ваш клиент:
+
+### 1. Стандартные подписки (GitHub)
+
+* ⚪ **01 MIGITI WHITELIST** *(Оптимизировано для РФ-сервисов: Яндекс, VK, Госуслуги)*:  
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
+
+* ⚡ **02 MIGITI FAST PING** *(Быстрые серверы с пингом до 90 мс)*:  
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
+
+* 🌐 **03 MIGITI UNIVERSAL** *(Сборная подписка: VLESS, VMess, Trojan, Shadowsocks)*:  
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
+
+* 🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и UDP-протоколы)*:  
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
+
+---
+
+### 2. Обновление через Яндекс Переводчик *(если GitHub заблокирован)*
+
+> [!TIP]  
+> Если GitHub блокируется вашим провайдером, используйте эти зеркала для обновления. *(Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за лайфхак!)*
+
+* ⚪ **01 MIGITI WHITELIST**:  
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
+
+* ⚡ **02 MIGITI FAST PING**:  
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
+
+* 🌐 **03 MIGITI UNIVERSAL**:  
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
+
+* 🥷 **04 MIGITI STEALTH NEXTGEN**:  
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
 
 ---
 
@@ -123,45 +159,6 @@
 
 ---
 
-## 🔗 Ссылки на подписки
-
-Скопируйте и вставьте нужную ссылку в ваш клиент:
-
-### 1. Стандартные подписки (GitHub)
-
-* ⚪ **01 MIGITI WHITELIST** *(Оптимизировано для РФ-сервисов: Яндекс, VK, Госуслуги)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
-
-* ⚡ **02 MIGITI FAST PING** *(Быстрые серверы с пингом до 90 мс)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
-
-* 🌐 **03 MIGITI UNIVERSAL** *(Сборная подписка: VLESS, VMess, Trojan, Shadowsocks)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
-
-* 🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и UDP-протоколы)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
-
----
-
-### 2. Обновление через Яндекс Переводчик *(если GitHub заблокирован)*
-
-> [!TIP]  
-> Если GitHub блокируется вашим провайдером, используйте эти зеркала для обновления. *(Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за лайфхак!)*
-
-* ⚪ **01 MIGITI WHITELIST**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
-
-* ⚡ **02 MIGITI FAST PING**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
-
-* 🌐 **03 MIGITI UNIVERSAL**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
-
-* 🥷 **04 MIGITI STEALTH NEXTGEN**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
-
----
-
 ## 💳 Поддержать проект (Donate)
 
 Проект полностью бесплатный, но отбор и поддержка базы требуют времени. Если проект вам пригодился, буду благодарен за поддержку:
@@ -177,11 +174,10 @@
 
 Данный проект является публичным **агрегатором и фильтром** конфигураций. Все прокси-серверы собираются из открытых источников в сеть Интернет. Автор проекта не владеет большей частью серверов и не несёт ответственности за их содержимое.
 
-Если вы являетесь владельцем конкретного сервера/конфигурации и хотите, чтобы ваш узловой адрес был удалён из списков подписки — напишите на [Fageter@protonmail.com](mailto:Fageter@protonmail.com) или создайте [Issue](https://github.com/misha12333211-ctrl/proxy-subs/issues). Узел будет оперативно удалён.
+Если вы являетесь владельцем конкретного сервера/конфигурации и хотите, чтобы ваш узловой адрес был удалён из списков подписки — напишите на [Fageter@protonmail.com](mailto:Fageter@protonmail.com). Узел будет оперативно удалён.
 
 ---
 
 ## 📬 Обратная связь
 
 * 📧 **Email**: `Fageter@protonmail.com`
-* 💬 **GitHub Issues**: Пишите вопросы и предложения в разделе [Issues](https://github.com/misha12333211-ctrl/proxy-subs/issues).

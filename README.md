@@ -21,21 +21,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://messenger.online.sberbank.ru/sl/HB0CuMt88gO20oajp">
-    <img src="https://img.shields.io/badge/Сбербанк-Сбер-21A038?style=for-the-badge&logo=sberbank&logoColor=white" alt="Сбербанк">
-  </a>
-  <a href="https://www.donationalerts.com/r/diagomalacco">
-    <img src="https://img.shields.io/badge/DonationAlerts-FF5E36?style=for-the-badge&logo=donationalerts&logoColor=white" alt="DonationAlerts">
-  </a>
-  <a href="https://www.patreon.com/cw/MiGiTiVlessSubscriptions/shop?sort=published_at">
-    <img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon">
-  </a>
-  <a href="https://ton.org/address/UQB4NY_1ula9p2YJpM0kHPEjbJOmOUK1JNwYUNu9_T2TlAbt">
-    <img src="https://img.shields.io/badge/TON%20Wallet-UQB4NY...2TlAbt-0088CC?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet">
-  </a>
-</p>
-
 Бесплатный коллектор подписок и публичных прокси-серверов V2Ray / Xray с регулярной очисткой, фильтрацией задержки и отбором рабочих конфигов.
 
 🔗 **Официальный сайт проекта**: [misha12333211-ctrl.github.io/MiGiTi](https://misha12333211-ctrl.github.io/MiGiTi/)
@@ -60,31 +45,61 @@
 
 ---
 
-## 💡 Обновление при белых списках
+## ⚙️ Важно: Правильная настройка клиентов
 
-Если GitHub блокируется вашим провайдером или подписка никак не хочет обновляться напрямую в клиенте, можно использовать зеркалирование через Яндекс Переводчик.
+Подписки и узлы могут быть абсолютно любыми, но ключевую роль играет то, как именно настроен ваш клиент (v2rayN, Sing-Box, NekoBox, Happ, FlClash и др.). 
 
-Готовые проксированные ссылки для вставки в клиент:
+Я потратил очень много времени на тесты: постоянно менял параметры, сравнивал стабильность, замерял скорость и проверял проходимость узлов при сильных блокировках. В итоге я вывел конфигурацию, с которой прокси работают максимально стабильно и без затыков. 
 
-* **01 MIGITI WHITELIST**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
-* **02 MIGITI FAST PING**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
-* **03 MIGITI UNIVERSAL**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
-* **04 MIGITI STEALTH NEXTGEN**: `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
+Настоятельно рекомендую выставить в вашем клиенте следующие значения:
 
-> Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за этот полезный лайфхак!
+* **Fake DNS**: Обязательно включите параметр `Использовать поддельный DNS` (`Fake DNS` / `FakeIP`).
+* **MTU**: Установите значение `1281`.
+* **DNS (Удаленный и Внутренний)**: Пропишите `1.1.1.1` или `77.88.8.8`.
+* **Фрагментация (Fragment)**: Обязательно активируйте.
+  * **Длина (Length)**: `5-10`
+  * **Интервал (Interval)**: `5-15`
+  * **Максимальное число (Max count / packets)**: `20` (если этот параметр есть в вашем клиенте).
 
 ---
 
-## 🔗 Готовые Подписки
+## 🔗 Ссылки на подписки
 
-Прямые ссылки для добавления в ваши приложения (v2rayN, Sing-Box, NekoBox, Happ и др.):
+Скопируйте и вставьте нужную ссылку в ваш клиент:
 
-| № | Название | Описание | Ссылка на подписку |
-|---|---|---|---|
-| **01** | **MIGITI WHITELIST** | Оптимизировано для работы с российскими сервисами (Яндекс, VK, Госуслуги) | [`1.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt) |
-| **02** | **MIGITI FAST PING** | Быстрые серверы (пинг до 90 мс) для комфортного сёрфинга и игр | [`2.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt) |
-| **03** | **MIGITI UNIVERSAL** | Сборная подписка с разными протоколами (VLESS, VMess, Trojan, Shadowsocks) | [`3.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt) |
-| **04** | **MIGITI STEALTH NEXTGEN** | Конфигурации VLESS REALITY и современные UDP-протоколы | [`4.txt`](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt) |
+### 1. Стандартные подписки (GitHub)
+
+* **01 MIGITI WHITELIST** (Оптимизировано для работы с российскими сервисами: Яндекс, VK, Госуслуги):
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
+
+* **02 MIGITI FAST PING** (Быстрые серверы с пингом до 90 мс для комфортного сёрфинга и игр):
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
+
+* **03 MIGITI UNIVERSAL** (Сборная подписка с разными протоколами: VLESS, VMess, Trojan, Shadowsocks):
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
+
+* **04 MIGITI STEALTH NEXTGEN** (Конфигурации VLESS REALITY и современные UDP-протоколы):
+  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
+
+---
+
+### 2. Обновление через Яндекс Переводчик (если GitHub заблокирован)
+
+Если GitHub блокируется вашим провайдером или подписка не обновляется напрямую, используйте проксированные ссылки:
+
+* **01 MIGITI WHITELIST**:
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
+
+* **02 MIGITI FAST PING**:
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
+
+* **03 MIGITI UNIVERSAL**:
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
+
+* **04 MIGITI STEALTH NEXTGEN**:
+  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
+
+> Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за этот полезный лайфхак!
 
 ---
 

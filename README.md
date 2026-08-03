@@ -16,8 +16,8 @@
   </a>
   <img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-brightgreen" alt="Open Source">
   <br>
-  <a href="mailto:Fageter@proronmail.com">
-    <img src="https://img.shields.io/badge/Email-Fageter%40proronmail.com-007EC6?style=flat&logo=gmail&logoColor=white" alt="Email">
+  <a href="mailto:Fageter@protonmail.com">
+    <img src="https://img.shields.io/badge/Email-Fageter%40protonmail.com-007EC6?style=flat&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
 

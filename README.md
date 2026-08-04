@@ -1,18 +1,18 @@
 # 🌐 MiGiTi Proxy Subscriptions
 
 <p align="center">
-  <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
-    <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Stars">
+  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/stargazers](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)">
+    <img src="[https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6)" alt="Stars">
   </a>
-  <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
-    <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6" alt="Last Commit">
+  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/commits/main](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)">
+    <img src="[https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6)" alt="Last Commit">
   </a>
-  <a href="https://github.com/misha12333211-ctrl/proxy-subs">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge" alt="Visitors Count">
+  <a href="[https://github.com/misha12333211-ctrl/proxy-subs](https://github.com/misha12333211-ctrl/proxy-subs)">
+    <img src="[https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge](https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge)" alt="Visitors Count">
   </a>
 </p>
 
-Бесплатный коллектор подписок и публичных прокси-серверов V2Ray / Xray с регулярной очисткой, фильтрацией задержки и отбором рабочих конфигов.
+Автоматизированный агрегатор публичных конфигураций V2Ray / Xray с регулярной проверкой доступности, фильтрацией задержки (ping) и дедупликацией узлов.
 
 🔗 **Официальный сайт проекта**: [misha12333211-ctrl.github.io/MiGiTi](https://misha12333211-ctrl.github.io/MiGiTi/)
 
@@ -20,15 +20,15 @@
 
 ## 📌 О проекте
 
-Привет! Я давно увлечён темой обхода блокировок, настройкой прокси и апгрейдом домашнего интернета. Почти год я являюсь постоянным читателем и фанатом канала **Киберпортал** — именно их контент и активное сообщество вдохновили меня создать этот агрегатор.
+Привет! Проект создан для увлеченных сетевыми технологиями пользователей, оптимизации сетевого трафика и настройки гибкой маршрутизации домашнего интернета.
 
-Базу подписок я собираю вручную: ищу свежие конфигурации в открытом доступе, прогоняю их через тесты и отбираю только те, которые действительно работают, держат стабильную связь и дают адекватный пинг.
+База конфигураций формируется из открытых источников: данные автоматически и вручную агрегируются, проходят валидацию по доступности и фильтруются по задержке отклика для обеспечения максимальной стабильности соединения.
 
 > [!NOTE]
-> **🚀 Проект создан недавно и активно развивается!**  
-> Сейчас проект работает как **агрегатор и фильтр публичных серверов**. Однако, если проект наберёт активность, аудиторию и финансовую поддержку, я с удовольствием подниму собственные серверы и запущу **эксклюзивную личную подписку** для пользователей.
+> **🚀 Проект активно развивается!**  
+> Сейчас сервисы работают как **агрегатор и фильтр публичных узлов**. В дальнейшем планируется расширение инфраструктуры и добавление новых высокоскоростных локаций при поддержке сообщества.
 > 
-> На данном этапе мне **очень важна ваша обратная связь**: если что-то не работает, работает медленно или у вас есть предложения по улучшению — обязательно напишите мне на почту или в Telegram-канал. Заранее спасибо!
+> Нам **очень важна ваша обратная связь**: если у вас есть предложения по улучшению маршрутизации или вы нашли неработающий узел — напишите в наш Telegram-канал или на почту.
 
 ---
 
@@ -36,92 +36,99 @@
 
 Скопируйте и вставьте нужную ссылку в ваш клиент:
 
-### 1. Стандартные подписки (GitHub)
+### 1. Основные подписки
 
-* ⚪ **01 MIGITI WHITELIST** *(Оптимизировано для РФ-сервисов: Яндекс, VK, Госуслуги)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
+* ⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*:  
+  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt)`
 
-* ⚡ **02 MIGITI FAST PING** *(Быстрые серверы с пингом до 90 мс)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
+* ⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой)*:  
+  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt)`
 
-* 🌐 **03 MIGITI UNIVERSAL** *(Сборная подписка: VLESS, VMess, Trojan, Shadowsocks)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
+* 🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*:  
+  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt)`
 
-* 🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и UDP-протоколы)*:  
-  `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
+* 🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы)*:  
+  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt)`
 
 ---
 
-### 2. Обновление через Яндекс Переводчик *(если GitHub заблокирован)*
+### 2. Альтернативные зеркала
 
 > [!TIP]  
-> Если GitHub блокируется вашим провайдером, используйте эти зеркала для обновления. *(Спасибо авторам репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) за лайфхак!)*
+> Если основные ссылки недоступны у вашего провайдера, используйте резервные зеркала.
+
+<details>
+<summary><b>Развернуть список альтернативных зеркал</b></summary>
+
+<br>
 
 * ⚪ **01 MIGITI WHITELIST**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
+  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de)`
 
 * ⚡ **02 MIGITI FAST PING**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
+  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de)`
 
 * 🌐 **03 MIGITI UNIVERSAL**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
+  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de)`
 
 * 🥷 **04 MIGITI STEALTH NEXTGEN**:  
-  `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
+  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de)`
+
+</details>
 
 ---
 
-## 🛠 Как отбираются и чистятся сервера
+## 🛠 Как отбираются и чистятся серверы
 
-Каждый сервер в подписке проходит обязательную фильтрацию:
+Каждый сервер в подписке проходит обязательную обработку:
 
-* 🔎 **Ручной отбор** — Поиск и проверка новых подписок в телеграм каналах, на гитхабе и в других источниках.
-* ⚡ **Фильтр задержки (Ping Validation)** — Нерабочие и медленные узлы отсеиваются. В список `FAST PING` попадают только серверы с низкой задержкой.
-* 🧹 **Чистка дублей** — Удаление повторяющихся конфигураций (дедупликация).
-* ⚪ **Проверка на работоспособность** — Каждый сервер проходит жесткую фильтрацию по SNI и проверку на работу иностранных сервисов.
+* 🔎 **Агрегация** — Сбор данных из публичных Telegram-каналов и Open-Source репозиториев.
+* ⚡ **Ping Validation** — Тестирование RTT-задержки и автоматическое отсеивание недоступных серверов.
+* 🧹 **Дедупликация** — Автоматическая очистка повторов по ключам и IP-адресам.
+* ⚪ **Валидация SNI** — Проверка корректности работы TLS/SNI заголовков.
 
 ---
 
 ## ⚙️ Важно: Рекомендуемые настройки клиентов
 
 > [!IMPORTANT]  
-> Ключевую роль в обходе блокировок играет то, как именно настроен ваш клиент. После нескольких тестов я подобрал оптимальные конфигурации под популярные приложения.
+> Для корректной работы и правильного распределения трафика рекомендуется настроить исключения в вашем клиенте.
 
 > [!TIP]
-> **Раздельное туннелирование (Режим VPN для приложений):**  
-> В настройках каждого из клиентов обязательно перейдите в раздел **«Режим VPN для приложений»** (или *Per-app proxy* / *Split tunneling*) и укажите **все российские приложения** (Госуслуги, Банки, Яндекс, VK и др.), чтобы они направлялись в обход (мимо) VPN.
+> **Раздельное туннелирование (Split Tunneling / Per-app proxy):**  
+> В настройках клиента перейдите в раздел **«Режим VPN для приложений»** и добавьте локальные сервисы (Госуслуги, Банки, Маркетплейсы), чтобы пускать их напрямую мимо туннеля.
 
-### Варианты DNS-серверов (выберите тот который будет работать у Вас):
+### Рекомендуемые DNS-серверы:
 * `1.1.1.1`
 * `77.88.8.8`
 * `dns.alidns.com`
-* `https://dns.astracat.ru/DNS-QUERY`
+* `[https://dns.astracat.ru/DNS-QUERY](https://dns.astracat.ru/DNS-QUERY)`
 
 ---
 
 <details>
-<summary>📱 <b>Настройка v2rayNG</b> (Скачать: <a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Releases</a>)</summary>
+<summary>📱 <b>Настройка v2rayNG</b> (Скачать: <a href="[https://github.com/2dust/v2rayNG/releases/tag/2.2.6](https://github.com/2dust/v2rayNG/releases/tag/2.2.6)">Releases</a>)</summary>
 
 <br>
 
 | Параметр | Значение / Настройка |
 | :--- | :--- |
-| **Fake DNS** | 🟢 **Обязательно включить** |
+| **Fake DNS** | 🟢 **Включить** |
 | **MTU** | `1281` |
 | **DNS (Удалённый и Внутренний)** | Один из списка выше |
 | **Маршрутизация** | `ipifnonmatch` |
 | **Поставщик правил** | `loyalsolider` |
-| **VPN для приложений** | 🟢 Настроить исключение для всех российских сервисов |
+| **Исключения для приложений** | 🟢 Настроить исключения для локальных сервисов |
 
-#### ✂️ Фрагментация (Fragment) — Обязательно включить:
+#### ✂️ Фрагментация (Fragment):
 * **Длина (Length):** `5-10`
 * **Интервал (Interval):** `5-15`
-* **Максимальное число пакетов (при наличии):** `20`
+* **Максимальное число пакетов:** `20`
 
 </details>
 
 <details>
-<summary>📱 <b>Настройка Husi</b> (Скачать: <a href="https://github.com/xchacha20-poly1305/husi/releases">Releases</a>)</summary>
+<summary>📱 <b>Настройка Husi</b> (Скачать: <a href="[https://github.com/xchacha20-poly1305/husi/releases](https://github.com/xchacha20-poly1305/husi/releases)">Releases</a>)</summary>
 
 <br>
 
@@ -129,17 +136,17 @@
 | :--- | :--- |
 | **Стек (TUN)** | `gvisor` |
 | **MTU** | `1281` |
-| **Fake DNS** | 🟢 **Включить** + Применять Fake DNS для каждого домена |
+| **Fake DNS** | 🟢 **Включить** + Применять для каждого домена |
 | **DNS** | Один из списка выше |
 | **Маршрутизация** | `ipifnonmatch` |
 | **Поставщик правил** | `loyalsolider` |
-| **VPN для приложений** | 🟢 Настроить исключение для всех российских сервисов |
+| **Исключения для приложений** | 🟢 Настроить исключение для локальных сервисов |
 | **Дополнительно** | 🟢 Включить **Wakelock** |
 
 </details>
 
 <details>
-<summary>📱 <b>Настройка Exclave</b> (Скачать: <a href="https://github.com/ExclaveNetwork/Exclave/releases">Releases</a>)</summary>
+<summary>📱 <b>Настройка Exclave</b> (Скачать: <a href="[https://github.com/ExclaveNetwork/Exclave/releases](https://github.com/ExclaveNetwork/Exclave/releases)">Releases</a>)</summary>
 
 <br>
 
@@ -151,64 +158,31 @@
 | **Перехват & Анализ** | 🟢 Перехват DNS <br> 🟢 Анализ трафика <br> 🟢 Переопределить адрес назначения |
 | **Маршрутизация** | Поставщик: `loyalsolider` \| Режим: `Глобальный` |
 | **Протоколы** | 🟢 Включить «Отключить REALITY» <br> 🟢 Включить Hysteria 2 |
-| **Фрагментация** | 🟢 Включить фрагментацию TLS <br> 🟢 Метод: *Фрагментация и сегментация* <br> 🟢 Включить фрагментацию для прямого |
-| **VPN для приложений** | 🟢 Настроить исключение для всех российских сервисов |
+| **Фрагментация** | 🟢 Включить фрагментацию TLS <br> 🟢 Метод: *Фрагментация и сегментация* |
+| **Исключения для приложений** | 🟢 Настроить исключение для локальных сервисов |
 | **Дополнительно** | 🟢 FakeDNS <br> 🟢 Включить **Wakelock** |
 
 </details>
 
 ---
 
-## 🛡️ Блокировка рекламы и аналитики (включая YouTube)
+## 🛡️ Блокировка рекламы и телеметрии
 
-Я очень долго искал рабочий способ заблокировать рекламу в YouTube и системные трекеры. В итоге я создал собственную маршрутизацию. 
+Для фильтрации рекламных доменов и аналитических трекеров создайте новое правило в вашем клиенте с типом действия **«Блокировать / Block»**.
 
-Чтобы избавиться от рекламы, создайте в вашем клиенте **новое правило маршрутизации** со значением действия **«Блокировать / Block»** и скопируйте туда следующий список доменов:
+<details>
+<summary><b>📋 Показать полный список правил и доменов</b></summary>
 
-`firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,full:s.youtube.com,full:video-stats.l.google.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:s.youtube.com,domain:video-stats.l.google.com,domain:exile.e.youtube.com,domain:google-analytics.com,domain:ssl.google-analytics.com,domain:stats.g.doubleclick.net,regexp:^.*youtube.*\/ptracking$,regexp:^.*youtube.*\/stream_204$,regexp:^.*youtube.*\/gen_204$,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,com.sec.android.app.sbrowser,com.samsung.android.messaging,com.facebook.orca,com.whatsapp,com.android.chrome,com.google.android.googlequicksearchbox,com.android.vending,com.google.android.apps.maps,connectivitycheck.gstatic.com,telemetry.google.com,google-analytics.com,ssl.google-analytics.com,analytics.google.com,firebaseio.com,firebase-settings.crashlytics.com,crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,app-measurement.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com,servicesupport.hicloud.com,pebed.dmevent.net,telemetry.api.swiftkey.com,esa-reg-eup.myoppo.com,ifotaeu.realmemobile.com,ifotaus.realmemobile.com,domain:bixbywelcome.samsung.com,domain:bixby.samsung.com,domain:customization.samsung.com,domain:samsungcloud.com,domain:account.samsung.com,domain:legal.samsung.com,domain:galaxyapps.samsung.com,domain:fota-cloud-dn.ospserver.net,domain:oemprd.samsungcloudsolution.com,domain:telemetry.darkness.google,domain:android.bugreport.google.com,domain:location.googleapis.com,domain:coauth.googleapis.com,domain:grandcentral.googleapis.com,domain:speech.googleapis.com,domain:appsflyer.com,domain:appflyer.com,domain:amplitude.com,domain:api.amplitude.com,domain:mixpanel.com,domain:api.mixpanel.com,domain:flurry.com,domain:data.flurry.com,domain:onesignal.com,domain:branch.io,domain:api2.branch.io,domain:bugsnag.com,domain:notify.bugsnag.com,regexp:^analytics\..*$,regexp:^telemetry\..*$,regexp:^.*metrics.*$,regexp:^.*log-stat.*$,domain:time.android.com,domain:time.google.com,domain:time.windows.com`
+<br>
 
----
+firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,full:s.youtube.com,full:video-stats.l.google.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:s.youtube.com,domain:video-stats.l.google.com,domain:exile.e.youtube.com,domain:google-analytics.com,domain:ssl.google-analytics.com,domain:stats.g.doubleclick.net,regexp:^.*youtube.*\/ptracking$,regexp:^.*youtube.*\/stream_204$,regexp:^.*youtube.*\/gen_204$,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,connectivitycheck.gstatic.com,telemetry.google.com,analytics.google.com,firebase-settings.crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com
 
-## 💳 Поддержать проект (Donate)
-
-Проект полностью бесплатный, но отбор и поддержка базы требуют времени. Если проект вам пригодился, буду благодарен за любую поддержку. 
-
- Все собранные донаты пойдут на аренду выделенных серверов (VPS) для создания **собственной приватной подписки** с гарантированной высокой скоростью:
-
-* 🟢 **Сбербанк**: [Перевести через Сбер](https://messenger.online.sberbank.ru/sl/HB0CuMt88gO20oajp)
-* 🧡 **Patreon**: [Мой Patreon](https://www.patreon.com/cw/MiGiTiVlessSubscriptions/shop?sort=published_at)
-* 🎁 **DonationAlerts**: [donationalerts.com/r/diagomalacco](https://www.donationalerts.com/r/diagomalacco)
-* 💎 **TON Wallet**: `UQB4NY_1ula9p2YJpM0kHPEjbJOmOUK1JNwYUNu9_T2TlAbt`
+</details>
 
 ---
 
-## 📬 Обратная связь
+## ⚖️ Disclaimer / Отказ от ответственности
 
-* 📧 **Email**: `Fageter@protonmail.com`
-
----
-
-## ⚖️ Отказ от ответственности (Disclaimer)
-
-Данный проект является публичным **агрегатором и фильтром** vless подписок. Все прокси-серверы собираются из открытых источников в сети Интернет. Автор проекта не владеет серверами и не несёт ответственности за их содержимое.
-
-Если вы являетесь владельцем конкретной подписки и хотите, чтобы ваша vless подписка была удалена из списка подписок — напишите на [Fageter@protonmail.com](mailto:Fageter@protonmail.com) и подписка будет оперативно удалена.
-
-Автор не является владельцем/разработчиком/поставщиком перечисленных VPN-конфигураций. Это независимый информационный обзор и результаты тестирования.
-
-Данный репозиторий и все связанные с ним проекты не являются рекламой VPN. Весь материал предназначен исключительно в информационных целях, и только для граждан тех стран, где эта информация легальна. 
-
-Автор не имеет никаких намерений, не побуждает, не поощряет и не оправдывает использование VPN и любых других программ ни при каких обстоятельствах.
-
-Ответственность за любое применение данных VPN-конфигураций — на их пользователе.
-
-Отказ от ответственности: автор не несёт ответственность за действия третьих лиц и не поощряет противоправное использование VPN. Автор не несёт ответственность за использование конфигураций, серверов или vless подписок.
-
-Автор не несет ответственности за точность, полноту и достоверность опубликованных данных. Все совпадения случайны. Вся информация может не соответствовать действительности.
-Вся информация может быть создана ИИ под влиянием кибервзломщиков(хакеров) или мошенников.
-
-Используйте в соответствии с местным законодательством.
-
-Используйте VPN только в законных целях: в частности - для обеспечения вашей безопасности в сети и защищённого удалённого доступа, и ни в коем случае не применяйте данную технологию для обхода блокировок.
-
-Проект некоммерческий, бесплатный, вся представленная "платежная" информация найдена случайным образом где-то в интернет-пространстве, скопирована "как есть" для демонстрации возможного примера и автору не принадлежит.
+1. Проект создается исключительно в ознакомительных, исследовательских и образовательных целях для изучения технологий маршрутизации и оптимизации сетевого трафика.
+2. Автор проекта не предоставляет платных услуг, не владеет приватной сетью серверов в рамках данного репозитория и использует данные исключительно из публичных открытых источников.
+3. Пользователь несёт самостоятельную ответственность за соблюдение местного законодательства при использовании любых сетевых конфигураций и программного обеспечения.

@@ -1,22 +1,32 @@
-# 🌐 MiGiTi Proxy Subscriptions
+<div align="center">
 
-<p align="center">
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/stargazers](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)">
-    <img src="[https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6)" alt="Stars">
-  </a>
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs/commits/main](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)">
-    <img src="[https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6)" alt="Last Commit">
-  </a>
-  <a href="[https://github.com/misha12333211-ctrl/proxy-subs](https://github.com/misha12333211-ctrl/proxy-subs)">
-    <img src="[https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge](https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge)" alt="Visitors Count">
-  </a>
-</p>
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600" alt="Header Animation"/>
 
-Автоматизированный агрегатор публичных конфигураций V2Ray / Xray с регулярной проверкой доступности, фильтрацией задержки (ping) и дедупликацией узлов.
+  # 🌐 MiGiTi Proxy Subscriptions
 
-🔗 **Официальный сайт проекта**: [misha12333211-ctrl.github.io/MiGiTi](https://misha12333211-ctrl.github.io/MiGiTi/)
+  <p align="center">
+    <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
+      <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github" alt="Stars">
+    </a>
+    <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
+      <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git" alt="Last Commit">
+    </a>
+    <a href="https://github.com/misha12333211-ctrl/proxy-subs">
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=misha12333211-ctrl.proxy-subs&left_text=Visitors&left_color=555555&right_color=007EC6&style=for-the-badge" alt="Visitors Count">
+    </a>
+  </p>
 
----
+  <p align="center">
+    <b>Автоматизированный агрегатор публичных конфигураций V2Ray / Xray с проверкой доступности и фильтрацией пинга.</b>
+  </p>
+
+  <p align="center">
+    🔗 <a href="https://misha12333211-ctrl.github.io/MiGiTi/"><b>Перейти на официальный сайт проекта</b></a>
+  </p>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 
 ## 📌 О проекте
 
@@ -27,28 +37,26 @@
 > [!NOTE]
 > **🚀 Проект активно развивается!**  
 > Сейчас сервисы работают как **агрегатор и фильтр публичных узлов**. В дальнейшем планируется расширение инфраструктуры и добавление новых высокоскоростных локаций при поддержке сообщества.
-> 
-> Нам **очень важна ваша обратная связь**: если у вас есть предложения по улучшению маршрутизации или вы нашли неработающий узел — напишите в наш Telegram-канал или на почту.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 
 ## 🔗 Ссылки на подписки
 
-Скопируйте и вставьте нужную ссылку в ваш клиент:
+Скопируйте нужную ссылку и вставьте в ваш клиент:
 
 ### 1. Основные подписки
 
-* ⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*:  
-  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt)`
+⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*  
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
 
-* ⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой)*:  
-  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt)`
+⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой)*  
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
 
-* 🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*:  
-  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt)`
+🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*  
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
 
-* 🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы)*:  
-  `[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt)`
+🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы)*  
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
 
 ---
 
@@ -58,25 +66,25 @@
 > Если основные ссылки недоступны у вашего провайдера, используйте резервные зеркала.
 
 <details>
-<summary><b>Развернуть список альтернативных зеркал</b></summary>
+<summary><b>📋 Развернуть список альтернативных зеркал</b></summary>
 
 <br>
 
-* ⚪ **01 MIGITI WHITELIST**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de)`
+⚪ **01 MIGITI WHITELIST**  
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
 
-* ⚡ **02 MIGITI FAST PING**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de)`
+⚡ **02 MIGITI FAST PING**  
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
 
-* 🌐 **03 MIGITI UNIVERSAL**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de)`
+🌐 **03 MIGITI UNIVERSAL**  
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
 
-* 🥷 **04 MIGITI STEALTH NEXTGEN**:  
-  `[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de)`
+🥷 **04 MIGITI STEALTH NEXTGEN**  
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
 
 </details>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 
 ## 🛠 Как отбираются и чистятся серверы
 
@@ -87,9 +95,9 @@
 * 🧹 **Дедупликация** — Автоматическая очистка повторов по ключам и IP-адресам.
 * ⚪ **Валидация SNI** — Проверка корректности работы TLS/SNI заголовков.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 
-## ⚙️ Важно: Рекомендуемые настройки клиентов
+## ⚙️ Настройки клиентов
 
 > [!IMPORTANT]  
 > Для корректной работы и правильного распределения трафика рекомендуется настроить исключения в вашем клиенте.
@@ -102,12 +110,12 @@
 * `1.1.1.1`
 * `77.88.8.8`
 * `dns.alidns.com`
-* `[https://dns.astracat.ru/DNS-QUERY](https://dns.astracat.ru/DNS-QUERY)`
+* `https://dns.astracat.ru/DNS-QUERY`
 
 ---
 
 <details>
-<summary>📱 <b>Настройка v2rayNG</b> (Скачать: <a href="[https://github.com/2dust/v2rayNG/releases/tag/2.2.6](https://github.com/2dust/v2rayNG/releases/tag/2.2.6)">Releases</a>)</summary>
+<summary>📱 <b>v2rayNG</b> — [<a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -128,7 +136,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Настройка Husi</b> (Скачать: <a href="[https://github.com/xchacha20-poly1305/husi/releases](https://github.com/xchacha20-poly1305/husi/releases)">Releases</a>)</summary>
+<summary>📱 <b>Husi</b> — [<a href="https://github.com/xchacha20-poly1305/husi/releases">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -146,7 +154,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Настройка Exclave</b> (Скачать: <a href="[https://github.com/ExclaveNetwork/Exclave/releases](https://github.com/ExclaveNetwork/Exclave/releases)">Releases</a>)</summary>
+<summary>📱 <b>Exclave</b> — [<a href="https://github.com/ExclaveNetwork/Exclave/releases">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -164,7 +172,7 @@
 
 </details>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
 
 ## 🛡️ Блокировка рекламы и телеметрии
 
@@ -175,9 +183,18 @@
 
 <br>
 
-firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,full:s.youtube.com,full:video-stats.l.google.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:s.youtube.com,domain:video-stats.l.google.com,domain:exile.e.youtube.com,domain:google-analytics.com,domain:ssl.google-analytics.com,domain:stats.g.doubleclick.net,regexp:^.*youtube.*\/ptracking$,regexp:^.*youtube.*\/stream_204$,regexp:^.*youtube.*\/gen_204$,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,connectivitycheck.gstatic.com,telemetry.google.com,analytics.google.com,firebase-settings.crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com
+`firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,full:s.youtube.com,full:video-stats.l.google.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:s.youtube.com,domain:video-stats.l.google.com,domain:exile.e.youtube.com,domain:google-analytics.com,domain:ssl.google-analytics.com,domain:stats.g.doubleclick.net,regexp:^.*youtube.*\/ptracking$,regexp:^.*youtube.*\/stream_204$,regexp:^.*youtube.*\/gen_204$,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,connectivitycheck.gstatic.com,telemetry.google.com,analytics.google.com,firebase-settings.crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com`
 
 </details>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
+
+## 📬 Контакты и поддержка
+
+Если у вас возникли вопросы, вы нашли неработающий узел или хотите предложить идею:
+
+* 📧 **Email**: [укажите_ваш_email@example.com]
+* 💬 **Telegram**: [Наш канал / Чат поддержки](https://t.me/your_channel)
 
 ---
 

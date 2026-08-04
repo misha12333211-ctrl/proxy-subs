@@ -3,15 +3,16 @@
   # 🌐 MiGiTi Proxy Subscriptions
 
   <p align="center">
-    <a href="[https://github.com/misha12333211-ctrl/proxy-subs/stargazers](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)">
-      <img src="[https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github)" alt="Stars">
+    <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
+      <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github" alt="Stars">
     </a>
-    <a href="[https://github.com/misha12333211-ctrl/proxy-subs/commits/main](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)">
-      <img src="[https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git)" alt="Last Commit">
+    <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
+      <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git" alt="Last Commit">
     </a>
-    <a href="[https://github.com/misha12333211-ctrl/proxy-subs](https://github.com/misha12333211-ctrl/proxy-subs)">
-      <img src="[https://img.shields.io/badge/Visitors-Count-007EC6?style=for-the-badge&logo=googleanalytics&logoColor=white](https://img.shields.io/badge/Visitors-Count-007EC6?style=for-the-badge&logo=googleanalytics&logoColor=white)" alt="Visitors Count">
+    <a href="https://github.com/misha12333211-ctrl/proxy-subs">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmisha12333211-ctrl%2Fproxy-subs&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false" alt="Visitors Count">
     </a>
+    <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage" alt="Status">
   </p>
 
   <p align="center">
@@ -19,7 +20,9 @@
   </p>
 
   <p align="center">
-    🔗 <a href="[https://misha12333211-ctrl.github.io/MiGiTi/](https://misha12333211-ctrl.github.io/MiGiTi/)"><b>Перейти на официальный сайт проекта</b></a>
+    🌐 <a href="https://misha12333211-ctrl.github.io/MiGiTi/"><b>Официальный сайт</b></a> •
+    💬 <a href="https://t.me/MiGiTi_Bypass_official_channel"><b>Telegram Канал</b></a> •
+    📧 <a href="mailto:Fageter@protonmail.com"><b>Связаться по Email</b></a>
   </p>
 
 </div>
@@ -34,51 +37,60 @@
 
 > [!NOTE]
 > **🚀 Проект активно развивается!**  
-> Сейчас сервисы работают как **агрегатор и фильтр публичных узлов**. В дальнейшем планируется расширение инфраструктуры и добавление новых высокоскоростных локаций при поддержке сообщества.
+> Сейчас сервисы работают как <mark>агрегатор и фильтр публичных узлов</mark>. В дальнейшем планируется расширение инфраструктуры и добавление новых высокоскоростных локаций при поддержке сообщества.
+
+---
+
+## 📊 ПОДДЕРЖИВАЕМЫЕ ПРОТОКОЛЫ И ТЕХНОЛОГИИ
+
+| Протокол | Шифрование / Транспорт | Рекомендуемый клиент | Назначение |
+| :--- | :--- | :--- | :--- |
+| **VLESS REALITY** | Vision / XTLS / UDP | `Exclave`, `v2rayNG` | Высокая маскировка и обход жестких блокировок |
+| **VMess** | WebSocket / gRPC / TCP | `v2rayNG`, `Husi` | Универсальная совместимость с устройствами |
+| **Trojan** | TLS / TCP | `Husi`, `Exclave` | Стабильная передача трафика через HTTPS-порт |
+| **Shadowsocks** | AEAD 2022 | Все клиенты | Минимальные задержки для игр и стриминга |
 
 ---
 
 ## 📡 ССЫЛКИ НА ПОДПИСКИ
 
-Скопируйте нужную ссылку в один клик и вставьте в ваш клиент:
+> [!TIP]
+> Используйте горячие клавиши <kbd>Ctrl</kbd> + <kbd>C</kbd> или выделить текст, чтобы быстро вставить URL в клиент (<kbd>Ctrl</kbd> + <kbd>V</kbd>).
 
 ### 1️⃣ Основные подписки
 
 ⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*  
-`[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt)`
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
 
 ⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой)*  
-`[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt)`
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
 
 🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*  
-`[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt)`
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
 
 🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы)*  
-`[https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt)`
+`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
 
 ---
 
 ### 2️⃣ Альтернативные зеркала
 
-> [!TIP]  
-> Если основные ссылки недоступны у вашего провайдера, используйте резервные зеркала.
-
 <details>
-<summary><b>📋 Развернуть список альтернативных зеркал</b></summary>
+<summary><b>📋 Развернуть список альтернативных зеркал (нажмите для просмотра)</b></summary>
 
 <br>
 
 ⚪ **01 MIGITI WHITELIST**  
-`[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de)`
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
 
 ⚡ **02 MIGITI FAST PING**  
-`[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de)`
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
 
 🌐 **03 MIGITI UNIVERSAL**  
-`[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de)`
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
 
 🥷 **04 MIGITI STEALTH NEXTGEN**  
-`[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de)`
+`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
 
 </details>
 
@@ -88,10 +100,10 @@
 
 Каждый сервер в подписке проходит обязательную многоэтапную обработку:
 
-* 🔎 **Агрегация** — Сбор данных из публичных Telegram-каналов и Open-Source репозиториев.
-* ⚡ **Ping Validation** — Тестирование RTT-задержки и автоматическое отсеивание недоступных серверов.
-* 🧹 **Дедупликация** — Автоматическая очистка повторов по ключам и IP-адресам.
-* ⚪ **Валидация SNI** — Проверка корректности работы TLS/SNI заголовков.
+- [x] 🔎 **Агрегация** — Сбор данных из публичных каналов и Open-Source репозиториев.
+- [x] ⚡ **Ping Validation** — Тестирование RTT-задержки и автоматическое отсеивание недоступных узлов.
+- [x] 🧹 **Дедупликация** — Очистка дубликатов по ключам шифрования и IP-адресам.
+- [x] ⚪ **Валидация SNI** — Проверка корректности работы TLS/SNI заголовков.
 
 ---
 
@@ -100,22 +112,18 @@
 > [!IMPORTANT]  
 > Для корректной работы и правильного распределения трафика рекомендуется настроить исключения в вашем клиенте.
 
-> [!TIP]
-> **Раздельное туннелирование (Split Tunneling / Per-app proxy):**  
-> В настройках клиента перейдите в раздел **«Режим VPN для приложений»** и добавьте локальные сервисы (Госуслуги, Банки, Маркетплейсы), чтобы пускать их напрямую мимо туннеля.
-
 ### 🌐 Рекомендуемые DNS-серверы:
-* `1.1.1.1`
-* `77.88.8.8`
-* `dns.alidns.com`
-* `[https://dns.astracat.ru/DNS-QUERY](https://dns.astracat.ru/DNS-QUERY)`
+* `1.1.1.1` *(Cloudflare)*
+* `77.88.8.8` *(Yandex)*
+* `dns.alidns.com` *(AliDNS)*
+* `https://dns.astracat.ru/DNS-QUERY` *(DoH)*
 
 ---
 
 ### 📱 Подробные инструкции по приложениям
 
 <details>
-<summary>📱 <b>v2rayNG</b> — [<a href="[https://github.com/2dust/v2rayNG/releases/tag/2.2.6](https://github.com/2dust/v2rayNG/releases/tag/2.2.6)">Скачать Releases</a>]</summary>
+<summary>📱 <b>v2rayNG</b> — [<a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -136,7 +144,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Husi</b> — [<a href="[https://github.com/xchacha20-poly1305/husi/releases](https://github.com/xchacha20-poly1305/husi/releases)">Скачать Releases</a>]</summary>
+<summary>📱 <b>Husi</b> — [<a href="https://github.com/xchacha20-poly1305/husi/releases">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -176,9 +184,9 @@
 
 ## 🛡️ БЛОКИРОВКА РЕКЛАМЫ И ТЕЛЕМЕТРИИ
 
-> [!CAUTION]
-> **Авториский набор правил:**  
-> Данный список доменов и правил блокировки был **самостоятельно найден, вручную собран и протестирован автором проекта** для максимальной защиты от слежки и ускорения загрузки страниц.
+> [!NOTE]
+> 💡 **Авторская база правил:**  
+> Список правил, доменов фильтрации и трекинга **был найден, лично сопоставлен и разработан автором проекта** для обеспечения максимальной приватности и отсечения нежелательного рекламного трафика.
 
 Для фильтрации рекламных доменов и аналитических трекеров создайте новое правило в вашем клиенте с типом действия **«Блокировать / Block»**.
 
@@ -220,3 +228,6 @@
 1. Проект создается исключительно в ознакомительных, исследовательских и образовательных целях для изучения технологий маршрутизации и оптимизации сетевого трафика.
 2. Автор проекта не предоставляет платных услуг, не владеет приватной сетью серверов в рамках данного репозитория и использует данные исключительно из публичных открытых источников.
 3. Пользователь несёт самостоятельную ответственность за соблюдение местного законодательства при использовании любых сетевых конфигураций и программного обеспечения.
+
+---
+<sub>MiGiTi Proxy Subscriptions • Open Source Project<sub>

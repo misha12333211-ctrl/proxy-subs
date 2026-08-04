@@ -1,1 +1,1 @@
-// MIGITI WHITELIST (RU SNI - LTE/WiFi) | Обновлено: 05.08.2026, 01:14:50 (MSK) | Серверов: 0
+// MIGITI WHITELIST (RU SNI <=100ms) | Обновлено: 05.08.2026, 01:28:55 (MSK) | Серверов: 0

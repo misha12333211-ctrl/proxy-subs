@@ -37,25 +37,14 @@
 
 > [!NOTE]
 > **🚀 Проект активно развивается!**  
-> Сейчас сервисы работают как <mark>агрегатор и фильтр публичных узлов</mark>. В дальнейшем планируется расширение инфраструктуры и добавление новых высокоскоростных локаций при поддержке сообщества.
-
----
-
-## 📊 ПОДДЕРЖИВАЕМЫЕ ПРОТОКОЛЫ И ТЕХНОЛОГИИ
-
-| Протокол | Шифрование / Транспорт | Рекомендуемый клиент | Назначение |
-| :--- | :--- | :--- | :--- |
-| **VLESS REALITY** | Vision / XTLS / UDP | `Exclave`, `v2rayNG` | Высокая маскировка и обход жестких блокировок |
-| **VMess** | WebSocket / gRPC / TCP | `v2rayNG`, `Husi` | Универсальная совместимость с устройствами |
-| **Trojan** | TLS / TCP | `Husi`, `Exclave` | Стабильная передача трафика через HTTPS-порт |
-| **Shadowsocks** | AEAD 2022 | Все клиенты | Минимальные задержки для игр и стриминга |
+> Нам очень нужна ваша поддержка и обратная связь! Делитесь фидбеком, отправляйте репорты в Telegram-канал и предлагайте идеи по улучшению. Сейчас сервисы работают как <mark>агрегатор и фильтр публичных узлов</mark>, но при вашей поддержке планируется расширение инфраструктуры и добавление новых высокоскоростных локаций.
 
 ---
 
 ## 📡 ССЫЛКИ НА ПОДПИСКИ
 
 > [!TIP]
-> Используйте горячие клавиши <kbd>Ctrl</kbd> + <kbd>C</kbd> или выделите текст, чтобы быстро вставить URL в клиент (<kbd>Ctrl</kbd> + <kbd>V</kbd>).
+> **Как использовать:** Выделите нужную ссылку, скопируйте её и вставьте в строку добавления подписки в вашем клиенте.
 
 ### 1️⃣ Основные подписки
 
@@ -74,6 +63,8 @@
 ---
 
 ### 2️⃣ Альтернативные зеркала
+
+*Огромное спасибо репозиторию [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), благодаря которому появилась идея использования веб-переводчиков в качестве устойчивых зеркал для обхода блокировок сырых ссылок GitHub.*
 
 <details>
 <summary><b>📋 Развернуть список альтернативных зеркал (нажмите для просмотра)</b></summary>
@@ -109,10 +100,10 @@
 
 ## ⚙️ НАСТРОЙКИ КЛИЕНТОВ
 
-> [!IMPORTANT]  
-> Для корректной работы и правильного распределения трафика рекомендуется настроить исключения в вашем клиенте.
+Для стабильной работы соединений и корректной маршрутизации рекомендуется применить следующие настройки в вашем приложении.
 
 ### 🌐 Рекомендуемые DNS-серверы:
+*(Выберите один из рабочих вариантов для вашего провайдера)*
 * `1.1.1.1` *(Cloudflare)*
 * `77.88.8.8` *(Yandex)*
 * `dns.alidns.com` *(AliDNS)*
@@ -120,26 +111,27 @@
 
 ---
 
-### 📱 Подробные инструкции по приложениям
+### 📱 Подробная настройка приложений
 
 <details>
 <summary>📱 <b>v2rayNG</b> — [<a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Скачать Releases</a>]</summary>
 
 <br>
 
-| Параметр | Значение / Настройка |
-| :--- | :--- |
-| **Fake DNS** | 🟢 **Включить** |
-| **MTU** | `1281` |
-| **DNS (Удалённый и Внутренний)** | Один из списка выше(смотря какой работает у Вас) |
-| **Маршрутизация** | `ipifnonmatch` |
-| **Поставщик правил** | `loyalsolider` |
-| **Исключения для приложений** | 🟢 Настроить исключения для локальных сервисов |
+Перейдите в **Настройки** приложения и выставьте следующие параметры:
 
-#### ✂️ Фрагментация (Fragment):
-* **Длина (Length):** `5-10`
-* **Интервал (Interval):** `5-15`
-* **Максимальное число пакетов:** `20`
+1. **Базовые настройки:**
+   * **Fake DNS:** 🟢 Включить
+   * **MTU:** `1281`
+   * **DNS (Удалённый и Внутренний):** Укажите один из рекомендованных DNS из списка выше.
+2. **Маршрутизация:**
+   * **Режим маршрутизации:** `ipifnonmatch`
+   * **Поставщик правил:** `loyalsolider`
+   * **Исключения приложений:** Включите и добавьте банковские/локальные приложения в исключения.
+3. **Фрагментация (TLS Fragment):**
+   * **Длина (Length):** `5-10`
+   * **Интервал (Interval):** `5-15`
+   * **Максимальное число пакетов:** `20`
 
 </details>
 
@@ -148,16 +140,19 @@
 
 <br>
 
-| Параметр | Значение / Настройка |
-| :--- | :--- |
-| **Стек (TUN)** | `gvisor` |
-| **MTU** | `1281` |
-| **Fake DNS** | 🟢 **Включить** + Применять для каждого домена |
-| **DNS** | Один из списка выше(смотря какой работает у Вас) |
-| **Маршрутизация** | `ipifnonmatch` |
-| **Поставщик правил** | `loyalsolider` |
-| **Исключения для приложений** | 🟢 Настроить исключение для локальных сервисов |
-| **Дополнительно** | 🟢 Включить **Wakelock** |
+Перейдите в настройки профиля/приложения:
+
+1. **Сетевой стек & DNS:**
+   * **Стек (TUN):** `gvisor`
+   * **MTU:** `1281`
+   * **Fake DNS:** 🟢 Включить *(отметьте опцию «Применять для каждого домена»)*
+   * **DNS-сервер:** Один из рекомендованных выше.
+2. **Маршрутизация:**
+   * **Режим:** `ipifnonmatch`
+   * **Поставщик правил:** `loyalsolider`
+   * **Исключения приложений:** Настройте раздельное туннелирование для локальных сервисов.
+3. **Системные:**
+   * **Wakelock:** 🟢 Включить *(предотвращает отключение в фоновом режиме)*
 
 </details>
 
@@ -166,17 +161,21 @@
 
 <br>
 
-| Параметр | Значение / Настройка |
-| :--- | :--- |
-| **Стек** | `gvisor` |
-| **MTU** | `1281` |
-| **DNS** | Один из списка выше(смотря какой работает у Вас) + 🟢 Включить маршрутизацию DNS |
-| **Перехват & Анализ** | 🟢 Перехват DNS <br> 🟢 Анализ трафика <br> 🟢 Переопределить адрес назначения |
-| **Маршрутизация** | Поставщик: `loyalsolider` \| Режим: `Глобальный` |
-| **Протоколы** | 🟢 Включить «Отключить REALITY» <br> 🟢 Включить Hysteria 2 |
-| **Фрагментация** | 🟢 Включить фрагментацию TLS <br> 🟢 Метод: *Фрагментация и сегментация* |
-| **Исключения для приложений** | 🟢 Настроить исключение для локальных сервисов |
-| **Дополнительно** | 🟢 FakeDNS <br> 🟢 Включить **Wakelock** |
+В разделе настроек клиента установите:
+
+1. **Сеть и перехват:**
+   * **Стек:** `gvisor`
+   * **MTU:** `1281`
+   * **DNS:** Введите выбранный DNS-сервер и включите **Маршрутизацию DNS**.
+   * **Перехват & Анализ:** Включите *Перехват DNS*, *Анализ трафика* и *Переопределить адрес назначения*.
+   * **FakeDNS:** 🟢 Включить.
+2. **Маршрутизация и протоколы:**
+   * **Маршрутизация:** Поставщик `loyalsolider` \| Режим: `Глобальный`
+   * **Параметры протоколов:** 🟢 Включить «Отключить REALITY», 🟢 Включить Hysteria 2.
+   * **Фрагментация:** 🟢 Включить фрагментацию TLS \| Метод: *Фрагментация и сегментация*.
+3. **Дополнительно:**
+   * **Исключения приложений:** Добавьте приложения, требующие прямого подключения.
+   * **Wakelock:** 🟢 Включить.
 
 </details>
 
@@ -195,7 +194,7 @@
 
 <br>
 
-`firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,full:s.youtube.com,full:video-stats.l.google.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:s.youtube.com,domain:video-stats.l.google.com,domain:exile.e.youtube.com,domain:google-analytics.com,domain:ssl.google-analytics.com,domain:stats.g.doubleclick.net,regexp:^.*youtube.*\/ptracking$,regexp:^.*youtube.*\/stream_204$,regexp:^.*youtube.*\/gen_204$,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,connectivitycheck.gstatic.com,telemetry.google.com,analytics.google.com,firebase-settings.crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com`
+`firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,connectivitycheck.gstatic.com,telemetry.google.com,analytics.google.com,firebase-settings.crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com`
 
 </details>
 

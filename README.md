@@ -10,7 +10,7 @@
       <img src="[https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git)" alt="Last Commit">
     </a>
     <a href="[https://github.com/misha12333211-ctrl/proxy-subs](https://github.com/misha12333211-ctrl/proxy-subs)">
-      <img src="[https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmisha12333211-ctrl%2Fproxy-subs&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmisha12333211-ctrl%2Fproxy-subs&count_bg=%23007EC6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false)" alt="Visitors Count">
+      <img src="[https://img.shields.io/badge/Visitors-Count-007EC6?style=for-the-badge&logo=googleanalytics&logoColor=white](https://img.shields.io/badge/Visitors-Count-007EC6?style=for-the-badge&logo=googleanalytics&logoColor=white)" alt="Visitors Count">
     </a>
   </p>
 
@@ -136,7 +136,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Husi</b> — [<a href="https://github.com/xchacha20-poly1305/husi/releases">Скачать Releases</a>]</summary>
+<summary>📱 <b>Husi</b> — [<a href="[https://github.com/xchacha20-poly1305/husi/releases](https://github.com/xchacha20-poly1305/husi/releases)">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -176,6 +176,10 @@
 
 ## 🛡️ БЛОКИРОВКА РЕКЛАМЫ И ТЕЛЕМЕТРИИ
 
+> [!CAUTION]
+> **Авториский набор правил:**  
+> Данный список доменов и правил блокировки был **самостоятельно найден, вручную собран и протестирован автором проекта** для максимальной защиты от слежки и ускорения загрузки страниц.
+
 Для фильтрации рекламных доменов и аналитических трекеров создайте новое правило в вашем клиенте с типом действия **«Блокировать / Block»**.
 
 <details>
@@ -198,7 +202,7 @@
 
 ---
 
-## 💖 ПОДДЕРЖКА ПРОЕКТА И ДОНАТЫ
+## ⚡ ПОДДЕРЖКА ПРОЕКТА И ДОНАТЫ
 
 Если вам нравится этот проект и вы хотите поддержать его развитие, вы можете сделать добровольное пожертвование (донат). Все средства идут исключительно на оплату серверов, разработку авто-фильтров и расширение инфраструктуры!
 

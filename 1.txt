@@ -1,1 +1,2 @@
-// MIGITI WHITELIST (RU SNI <=100ms) | Обновлено: 05.08.2026, 03:29:54 (MSK) | Серверов: 0
+// MIGITI WHITELIST (RU SNI <=100ms) | Обновлено: 05.08.2026, 03:34:57 (MSK) | Серверов: 1
+trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@77.73.131.148:10446?mode=auto&path=%2Fvideo&security=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=yandex.ru&type=xhttp#MiGiTi%20Proxy%20SNI-1

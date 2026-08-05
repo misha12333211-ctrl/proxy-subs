@@ -69,9 +69,11 @@
 > **Как использовать:** Выделите нужную ссылку, скопируйте её и вставьте в строку добавления подписки в вашем клиенте.
 
 ⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*  
-#**`**https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt**`**
+#
+**`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`**
 
 ⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой <= 120ms)*  
+
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`**
 
 🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*  

@@ -241,7 +241,7 @@
 
 Если у вас возникли вопросы, вы нашли неработающий узел или хотите предложить идею:
 
-* 💬 **Telegram:** [MiGiTi Bypass Official Channel](https://t.me/MiGiTi_Bypass_official_channel)
+* 💬 **Telegram:** [MiGiTi Official Channel](https://t.me/MiGiTi_official_channel)
 * 📧 **Email:** [Fageter@protonmail.com](mailto:Fageter@protonmail.com)
 
 ---

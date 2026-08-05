@@ -89,9 +89,9 @@
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`**
 
 ---
-
+#
 # 🪞 ЗЕРКАЛО
-
+#
 *Огромное спасибо репозиторию [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), за эту идею*
 #
 ⚪ **01 MIGITI WHITELIST [ЗЕРКАЛО]**  
@@ -120,7 +120,7 @@
 
 Для блокировки рекламы создайте в своём клиенте правило 
 **«Блокировать / Block»**,
-которое будет блокировать эти домены 
+которое будет блокировать эти домены ↓
 
 <details>
 <summary><b>📋 Показать полный список правил и доменов</b></summary>

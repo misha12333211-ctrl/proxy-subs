@@ -33,11 +33,21 @@
 
 Проект создан для увлеченных сетевыми технологиями пользователей, оптимизации сетевого трафика и настройки гибкой маршрутизации домашнего интернета.
 
-База конфигураций формируется из открытых источников: данные автоматически и вручную агрегируются, проходят валидацию по доступности и фильтруются по задержке отклика для обеспечения максимальной стабильности соединения.
+База конфигураций формируется из открытых источников: данные автоматически и вручную агрегируются, проходят многоэтапную валидацию по доступности и фильтруются по задержке отклика для обеспечения максимальной стабильности соединения.
 
 > [!NOTE]
 > **🚀 Проект активно развивается!**  
 > Нам очень нужна ваша поддержка и обратная связь! Делитесь фидбеком, отправляйте репорты в Telegram-канал и предлагайте идеи по улучшению. Сейчас сервисы работают как <mark>агрегатор и фильтр публичных узлов</mark>, но при вашей поддержке планируется расширение инфраструктуры и добавление новых высокоскоростных локаций.
+
+---
+
+## 🔄 АКТУАЛИЗАЦИЯ И ЧАСТОТА ОБНОВЛЕНИЙ
+
+Подписки и списки серверов автоматически пересобираются и обновляются каждые **2–3 часа** (внутренний цикл агрегатора — каждые 30 минут). 
+
+* **Лимит серверов:** Каждая подписка содержит до **250 отобранных серверов** с наивысшим рейтингом качества.
+* **Строгая дедупликация:** Ни один сервер не повторяется между подписками. Если узел уже включен в Whitelist или Fast Ping, он гарантированно отсекается из других файлов.
+* **История доступности (Uptime Streak):** Серверы, сохраняющие стабильную работу на протяжении нескольких циклов проверки подряд, получают приоритет в ранжировании.
 
 ---
 
@@ -51,13 +61,13 @@
 ⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*  
 `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
 
-⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой)*  
+⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой <= 120ms)*  
 `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
 
 🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*  
 `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
 
-🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы)*  
+🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы: Hysteria 2, TUIC)*  
 `https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
 
 ---
@@ -91,10 +101,45 @@
 
 Каждый сервер в подписке проходит обязательную многоэтапную обработку:
 
-- [x] 🔎 **Агрегация** — Сбор данных из публичных каналов и Open-Source репозиториев.
-- [x] ⚡ **Ping Validation** — Тестирование RTT-задержки и автоматическое отсеивание недоступных узлов.
-- [x] 🧹 **Дедупликация** — Очистка дубликатов по ключам шифрования и IP-адресам.
-- [x] ⚪ **Валидация SNI** — Проверка корректности работы TLS/SNI заголовков.
+- [x] 🔎 **Агрегация** — Автоматический сбор более чем из 30+ публичных источников и Open-Source репозиториев.
+- [x] ⚡ **Multi-Node Ping Verification** — Измерение RTT-задержки через специализированные проверяющие узлы в РФ.
+- [x] 🧹 **Дедупликация по Imprint** — Очистка дубликатов по комбинациям IP, портов, ключей шифрования и UUID.
+- [x] ⚪ **Валидация SNI** — Фильтрация и сопоставление доменов с белыми списками (Yandex, VK, Gosuslugi и др.).
+- [x] 🎯 **Deep Protocol Verification** — Проверка реального прохождения трафика к популярным онлайн-сервисам.
+
+---
+
+## 🔍 МЕХАНИЗМ ГЛУБОКОЙ ВАЛИДАЦИИ (DEEP CHECK)
+
+В отличие от простых сканеров, проверяющих только TCP-порт, бэкенд проекта осуществляет комплексную оценку жизнеспособности каждого соединения:
+
+1. **Сервисная проверка (Target Verification):** Бэкенд имитирует запросы к целевым ресурсам (Telegram, YouTube, WhatsApp, ChatGPT, Instagram, GitHub, Gemini) через туннель. Узлы, проходящие этот тест, получают наибольший бонус к рейтингу.
+2. **Оценка отклика из РФ:** Для расчета реального пинга используются изолированные точки проверки (`RU_CHECK_NODES`), что гарантирует объективность показателя задержки для пользователей из России.
+3. **Алгоритм ранжирования (Scoring System):**
+   * `+1200 очков` — Успешный доступ к ключевым веб-сервисам.
+   * `+1000 очков` — Прохождение глубокой проверки протокола (Handshake).
+   * `+600 очков` — Соответствие SNI проверенному белым списком домену.
+   * `+500 / +400 очков` — Поддержка протоколов REALITY и UDP (Hysteria 2 / TUIC).
+   * `+50...500 очков` — Бонус за исторический Uptime и низкую задержку (RTT < 120ms).
+
+---
+
+## 🛡️ БЛОКИРОВКА РЕКЛАМЫ И ТЕЛЕМЕТРИИ
+
+> [!NOTE]
+> 💡 **Авторская база правил:**  
+> Список правил, доменов фильтрации и трекинга **был найден, лично сопоставлен и разработан автором проекта** для обеспечения максимальной приватности и отсечения нежелательного рекламного трафика.
+
+Для фильтрации рекламных доменов и аналитических трекеров создайте новое правило в вашем клиенте с типом действия **«Блокировать / Block»**.
+
+<details>
+<summary><b>📋 Показать полный список правил и доменов</b></summary>
+
+<br>
+
+`firebaselogging.googleapis.com,play.googleapis.com,google-analytics.com,ssl.google-analytics.com,doubleclick.net,*.doubleclick.net,pubads.g.doubleclick.net,pagead2.googlesyndication.com,googleadservices.com,domain:firebaseio.com,full:firebaselogging.googleapis.com,full:play.googleapis.com,domain:google-analytics.com,domain:doubleclick.net,full:pagead2.googlesyndication.com,full:googleadservices.com,domain:crashlytics.com,domain:app-measurement.com,domain:googletagservices.com,domain:googletagmanager.com,domain:sentry.io,domain:samsung-analytics.com,domain:samsungosp.com,geosite:category-ads-all,domain:sentry.io,domain:crashlytics.com,google-analytics.com,firebaseanalytics.amazonaws.com,firebaseio.com,crashlytics.com,telemetry.google,graph.facebook.com,facebook-hardware.com,analytics.whatsapp.com,crashlogs.whatsapp.net,stat.com.telegram,app-measurement.com,samsung-analytics.com,samsungosp.com,samsungcloudplatform.com,logging.samsungdm.com,connectivitycheck.gstatic.com,telemetry.google.com,analytics.google.com,firebase-settings.crashlytics.com,reports.crashlytics.com,api.crashlytics.com,play.googleapis.com,android.clients.google.com,android-context-data.googleapis.com,safebrowsing.googleapis.com,adjust.com,app.adjust.com,app.tr.adjust.com,tracking.intl.miui.com,api.sec.intl.miui.com,api.ad.intl.xiaomi.com,data.mistat.xiaomi.com,sdkconfig.ad.intl.xiaomi.com,api.omc.samsungdm.com,samsung-directory.edge.hiyaapi.com,capi.samsungcloud.com,gos-api.gos-gsp.io,dir-apis.samsungdm.com,api.gras.samsungdm.com,sspapi-prd.samsungrs.com,sdk.pushmessage.samsung.com,us-api.mcsvc.samsung.com,eu-api.mcsvc.samsung.com,ie-odc.samsungapps.com,in.appcenter.ms,query.hicloud.com,configserverdre.platform.hicloud.com`
+
+</details>
 
 ---
 
@@ -181,6 +226,15 @@
 
 ---
 
+## 📊 ЭНДПОИНТЫ И МОНИТОРИНГ СОСТОЯНИЯ
+
+Бэкенд-сервер предоставляет встроенные JSON и plain-text эндпоинты для отслеживания состояния агрегатора:
+
+* `GET /health` — Возвращает статус работы системы, время последнего московского обновления и количество активных серверов в каждой категории.
+* `GET /sub/:id` — Универсальный роут доступа к текстовым подпискам по идентификатору (`1`, `2`, `3`, `4` или `whitelist`, `fast`, `universal`, `nextgen`).
+
+---
+
 ## 💳 ПОДДЕРЖАТЬ ПРОЕКТ (DONATE)
 
 Проект полностью бесплатный, но отбор и поддержка базы требуют времени. Если проект вам пригодился, буду благодарен за поддержку:
@@ -216,4 +270,4 @@
 3. Пользователь несёт самостоятельную ответственность за соблюдение местного законодательства при использовании любых сетевых конфигураций и программного обеспечения.
 
 ---
-<sub>MiGiTi Proxy Subscriptions • Open Source Project<sub>
+<sub>MiGiTi Proxy Subscriptions • Open Source Project</sub>

@@ -93,7 +93,7 @@
 ⚪ **01 MIGITI WHITELIST [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`**
-₽
+#
 ⚡ **02 MIGITI FAST PING [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`**

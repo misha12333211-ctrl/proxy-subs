@@ -3,16 +3,16 @@
   # 🌐 MiGiTi Proxy Subscriptions
 
   <p align="center">
-    <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
-      <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github" alt="Stars">
+    <a href="[https://github.com/misha12333211-ctrl/proxy-subs/stargazers](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)">
+      <img src="[https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github)" alt="Stars">
     </a>
-    <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
-      <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git" alt="Last Commit">
+    <a href="[https://github.com/misha12333211-ctrl/proxy-subs/commits/main](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)">
+      <img src="[https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git)" alt="Last Commit">
     </a>
-    <a href="https://github.com/misha12333211-ctrl/proxy-subs">
-      <img src="https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&style=for-the-badge&color=007EC6&label=VISITORS" alt="Visitors Count">
+    <a href="[https://github.com/misha12333211-ctrl/proxy-subs](https://github.com/misha12333211-ctrl/proxy-subs)">
+      <img src="[https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&style=for-the-badge&color=007EC6&label=VISITORS](https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&style=for-the-badge&color=007EC6&label=VISITORS)" alt="Visitors Count">
     </a>
-    <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage" alt="Status">
+    <img src="[https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage](https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage)" alt="Status">
   </p>
 
   <p align="center">
@@ -20,8 +20,8 @@
   </p>
 
   <p align="center">
-    🌐 <a href="https://misha12333211-ctrl.github.io/MiGiTi/"><b>Официальный сайт</b></a> •
-    💬 <a href="https://t.me/MiGiTi_Bypass_official_channel"><b>Telegram Канал</b></a> •
+    🌐 <a href="[https://misha12333211-ctrl.github.io/MiGiTi/](https://misha12333211-ctrl.github.io/MiGiTi/)"><b>Официальный сайт</b></a> •
+    💬 <a href="[https://t.me/MiGiTi_Bypass_official_channel](https://t.me/MiGiTi_Bypass_official_channel)"><b>Telegram Канал</b></a> •
     📧 <a href="mailto:Fageter@protonmail.com"><b>Связаться по Email</b></a>
   </p>
 
@@ -51,49 +51,49 @@
 
 ---
 
-## 📡 ССЫЛКИ НА ПОДПИСКИ
+# 📡 ССЫЛКИ НА ПОДПИСКИ
 
 > [!TIP]
-> **Как использовать:** Выделите нужную ссылку, скопируйте её и вставьте в строку добавления подписки в вашем клиенте.
-
-### 1️⃣ Основные подписки
-
-⚪ **01 MIGITI WHITELIST** *(Прямая маршрутизация для локальных сервисов: Яндекс, VK, Госуслуги)*  
-`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`
-
-⚡ **02 MIGITI FAST PING** *(Оптимизированные узлы с низкой задержкой <= 120ms)*  
-`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`
-
-🌐 **03 MIGITI UNIVERSAL** *(Универсальный набор: VLESS, VMess, Trojan, Shadowsocks)*  
-`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`
-
-🥷 **04 MIGITI STEALTH NEXTGEN** *(Конфигурации VLESS REALITY и современные UDP-протоколы: Hysteria 2, TUIC)*  
-`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`
+> **Как использовать:** Скопируйте нужную ссылку полностью и вставьте в поле ввода подписки (Subscription URL) в вашем клиенте.
 
 ---
 
-### 2️⃣ Альтернативные зеркала
-
-*Огромное спасибо репозиторию [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), благодаря которому появилась идея использования веб-переводчиков в качестве устойчивых зеркал для обхода блокировок сырых ссылок GitHub.*
-
-<details>
-<summary><b>📋 Развернуть список альтернативных зеркал (нажмите для просмотра)</b></summary>
-
-<br>
+## 🚀 ОСНОВНЫЕ ПОДПИСКИ (RAW GITHUB)
 
 ⚪ **01 MIGITI WHITELIST**  
-`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
+*Прямая маршрутизация для локальных сервисов (Яндекс, VK, Госуслуги и др.)*  
+https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt
 
 ⚡ **02 MIGITI FAST PING**  
-`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
+*Оптимизированные узлы с минимальной задержкой отклика (RTT <= 120ms)*  
+https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt
 
 🌐 **03 MIGITI UNIVERSAL**  
-`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
+*Универсальный набор конфигураций (VLESS, VMess, Trojan, Shadowsocks)*  
+https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt
 
 🥷 **04 MIGITI STEALTH NEXTGEN**  
-`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
+*Конфигурации VLESS REALITY и современные UDP-протоколы (Hysteria 2, TUIC)*  
+https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt
 
-</details>
+---
+
+## 🪞 АЛЬТЕРНАТИВНЫЕ ССЫЛКИ (ЗЕРКАЛО)
+
+*Используются для обхода прямых блокировок GitHub со стороны провайдеров через веб-переводчики.*  
+*(Идея подсмотрена у репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia))*
+
+⚪ **01 MIGITI WHITELIST — 🪞 ЗЕРКАЛО**  
+[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de)
+
+⚡ **02 MIGITI FAST PING — 🪞 ЗЕРКАЛО**  
+[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de)
+
+🌐 **03 MIGITI UNIVERSAL — 🪞 ЗЕРКАЛО**  
+[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de)
+
+🥷 **04 MIGITI STEALTH NEXTGEN — 🪞 ЗЕРКАЛО**  
+[https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de](https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de)
 
 ---
 
@@ -102,25 +102,9 @@
 Каждый сервер в подписке проходит обязательную многоэтапную обработку:
 
 - [x] 🔎 **Агрегация** — Автоматический сбор более чем из 30+ публичных источников и Open-Source репозиториев.
-- [x] ⚡ **Multi-Node Ping Verification** — Измерение RTT-задержки через специализированные проверяющие узлы в РФ.
+- [x] ⚡ **Multi-Node Ping Verification** — Измерение RTT-задержки через проверяющие узлы в РФ.
 - [x] 🧹 **Дедупликация по Imprint** — Очистка дубликатов по комбинациям IP, портов, ключей шифрования и UUID.
 - [x] ⚪ **Валидация SNI** — Фильтрация и сопоставление доменов с белыми списками (Yandex, VK, Gosuslugi и др.).
-- [x] 🎯 **Deep Protocol Verification** — Проверка реального прохождения трафика к популярным онлайн-сервисам.
-
----
-
-## 🔍 МЕХАНИЗМ ГЛУБОКОЙ ВАЛИДАЦИИ (DEEP CHECK)
-
-В отличие от простых сканеров, проверяющих только TCP-порт, бэкенд проекта осуществляет комплексную оценку жизнеспособности каждого соединения:
-
-1. **Сервисная проверка (Target Verification):** Бэкенд имитирует запросы к целевым ресурсам (Telegram, YouTube, WhatsApp, ChatGPT, Instagram, GitHub, Gemini) через туннель. Узлы, проходящие этот тест, получают наибольший бонус к рейтингу.
-2. **Оценка отклика из РФ:** Для расчета реального пинга используются изолированные точки проверки (`RU_CHECK_NODES`), что гарантирует объективность показателя задержки для пользователей из России.
-3. **Алгоритм ранжирования (Scoring System):**
-   * `+1200 очков` — Успешный доступ к ключевым веб-сервисам.
-   * `+1000 очков` — Прохождение глубокой проверки протокола (Handshake).
-   * `+600 очков` — Соответствие SNI проверенному белым списком домену.
-   * `+500 / +400 очков` — Поддержка протоколов REALITY и UDP (Hysteria 2 / TUIC).
-   * `+50...500 очков` — Бонус за исторический Uptime и низкую задержку (RTT < 120ms).
 
 ---
 
@@ -133,7 +117,7 @@
 Для фильтрации рекламных доменов и аналитических трекеров создайте новое правило в вашем клиенте с типом действия **«Блокировать / Block»**.
 
 <details>
-<summary><b>📋 Показать полный список правил и доменов</b></summary>
+<summary><b>📋 Показать полный список правил и доменов (нажмите для разворачивания)</b></summary>
 
 <br>
 
@@ -152,14 +136,14 @@
 * `1.1.1.1` *(Cloudflare)*
 * `77.88.8.8` *(Yandex)*
 * `dns.alidns.com` *(AliDNS)*
-* `https://dns.astracat.ru/DNS-QUERY` *(DoH)*
+* `[https://dns.astracat.ru/DNS-QUERY](https://dns.astracat.ru/DNS-QUERY)` *(DoH)*
 
 ---
 
 ### 📱 Подробная настройка приложений
 
 <details>
-<summary>📱 <b>v2rayNG</b> — [<a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Скачать Releases</a>]</summary>
+<summary>📱 <b>v2rayNG</b> — [<a href="[https://github.com/2dust/v2rayNG/releases/tag/2.2.6](https://github.com/2dust/v2rayNG/releases/tag/2.2.6)">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -223,15 +207,6 @@
    * **Wakelock:** 🟢 Включить.
 
 </details>
-
----
-
-## 📊 ЭНДПОИНТЫ И МОНИТОРИНГ СОСТОЯНИЯ
-
-Бэкенд-сервер предоставляет встроенные JSON и plain-text эндпоинты для отслеживания состояния агрегатора:
-
-* `GET /health` — Возвращает статус работы системы, время последнего московского обновления и количество активных серверов в каждой категории.
-* `GET /sub/:id` — Универсальный роут доступа к текстовым подпискам по идентификатору (`1`, `2`, `3`, `4` или `whitelist`, `fast`, `universal`, `nextgen`).
 
 ---
 

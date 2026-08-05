@@ -109,11 +109,11 @@
 🥷 **04 MIGITI STEALTH NEXTGEN [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`**
-
+#
 ---
-
+#
 ## 🛡️ БЛОКИРОВКА РЕКЛАМЫ НА YouTube
-
+#
 > [!NOTE]
 > 💡 **Авторская база правил:**  
 > Список правил, доменов фильтрации и трекинга **был найден, лично сопоставлен и разработан автором проекта** для обеспечения максимальной приватности и отсечения нежелательного рекламного трафика.

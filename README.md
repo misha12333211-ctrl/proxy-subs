@@ -68,19 +68,19 @@
 > [!TIP]
 > **Как использовать:** Выделите нужную ссылку, скопируйте её и вставьте в строку добавления подписки в вашем клиенте.
 
-⚪ **01 MIGITI WHITELIST** 
+⚪ **01 WHITELIST** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`**
 #
-⚡ **02 MIGITI FAST PING** 
+⚡ **02 FAST PING** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`**
 #
-🌐 **03 MIGITI UNIVERSAL** 
+🌐 **03 UNIVERSAL** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`**
 #
-🥷 **04 MIGITI STEALTH NEXTGEN** 
+🥷 **04 STEALTH NEXTGEN** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`**
 #
@@ -90,19 +90,19 @@
 #
 *Огромное спасибо репозиторию [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), за эту идею*
 #
-⚪ **01 MIGITI WHITELIST [ЗЕРКАЛО]**  
+⚪ **01 WHITELIST [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`**
 #
-⚡ **02 MIGITI FAST PING [ЗЕРКАЛО]**  
+⚡ **02 FAST PING [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`**
 #
-🌐 **03 MIGITI UNIVERSAL [ЗЕРКАЛО]**  
+🌐 **03 UNIVERSAL [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`**
 #
-🥷 **04 MIGITI STEALTH NEXTGEN [ЗЕРКАЛО]**  
+🥷 **04 STEALTH NEXTGEN [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`**
 #

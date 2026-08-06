@@ -1,1 +1,6 @@
-// MIGITI FAST RU SNI (<150ms) | Обновлено: 06.08.2026, 07:40:55 (MSK) | Серверов: 0
+// MIGITI FAST RU SNI (<150ms) | Обновлено: 06.08.2026, 10:35:01 (MSK) | Серверов: 5
+vless://a852c438-b983-46ce-a789-53c70d426505@45.38.249.49:443?security=reality&encryption=none&pbk=6wEcjCOgl-LIN9otQ_UJgRQYLFlnKTEjdYnnqjj5cRY&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=kinopoisk.ru&sid=911debda80e7b51b#MiGiTi%20Proxy%20Fast-SNI-1
+vless://ce2c0785-ccec-43b3-888c-f475b410c386@31.76.31.120:443?encryption=none&security=reality&sni=ya.ru&fp=chrome&echfq=none&pbk=coo1GUSQ_7hoEqw7L2xCDW4EsHMI3RzVEiMCac8kF1o&sid=a1b2c3d4&allowinsecure=0&type=tcp&headerType=none#MiGiTi%20Proxy%20Fast-SNI-2
+vless://a2738d8d-ed26-4b13-a4a2-b89c7238cd10@185.91.52.223:443?security=reality&encryption=none&pbk=QtZRbr9j3AkH21EZdpYl1WxRUMPe3ohgb3zKZpO64AQ&headerType=&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=sun1-93.userapi.com&sid=60dbed2b#MiGiTi%20Proxy%20Fast-SNI-3
+vless://155e8dd4-a559-407a-9ea8-13a5e829f066@185.247.16.3:2200?encryption=none&host=rzd.ru&path=%2Fv1&security=none&type=ws#MiGiTi%20Proxy%20Fast-SNI-4
+trojan://c7d3ddf6-345e-4616-ba75-d43efc8f9a7a@77.73.131.148:10446?mode=auto&path=%2Fvideo&security=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=yandex.ru&type=xhttp#MiGiTi%20Proxy%20Fast-SNI-5

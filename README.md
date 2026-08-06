@@ -218,7 +218,7 @@
 
 Проект полностью бесплатный, но отбор и поддержка базы требуют времени. Если проект вам пригодился, буду благодарен за поддержку:
 
-* 🟢 **Сбербанк:** [Перевести через Сбер](https://messenger.online.sberbank.ru/sl/HB0CuMt88gO20oajp)
+* 🟢 **Сбербанк:** 2202208876492068
 * 🧡 **Patreon:** [Мой Patreon](https://www.patreon.com/cw/MiGiTiVlessSubscriptions/shop?sort=published_at)
 * 🎁 **DonationAlerts:** [donationalerts.com/r/diagomalacco](https://www.donationalerts.com/r/diagomalacco)
 * 💎 **TON Wallet:**  

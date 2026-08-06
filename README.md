@@ -1,6 +1,6 @@
 <div align="center">
 
-  # 🌐 MiGiTi Proxy Subscriptions
+  # 🌐 MiGiTi Vless Configs For Russia
 
   <p align="center">
     <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">

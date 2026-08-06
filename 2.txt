@@ -1,1 +1,1 @@
-// MIGITI FAST RU SNI (<75ms) | Updated: 06.08.2026, 16:59:23 (MSK) | Total: 0
+// MIGITI FAST RU SNI (<=70ms) | Обновлено: 06.08.2026, 17:07:53 (MSK) | Серверов: 0

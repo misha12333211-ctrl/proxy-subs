@@ -76,11 +76,11 @@
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`**
 #
-🌐 **03 UNIVERSAL** 
+🥷 **03 STEALTH NEXTGEN** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`**
 #
-🥷 **04 STEALTH NEXTGEN** 
+🌐 **04 UNIVERSAL** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`**
 
@@ -98,11 +98,11 @@
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`**
 #
-🌐 **03 UNIVERSAL [ЗЕРКАЛО]**  
+🥷 **03 STEALTH NEXTGEN [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`**
 #
-🥷 **04 STEALTH NEXTGEN [ЗЕРКАЛО]**  
+🌐 **04 UNIVERSAL [ЗЕРКАЛО]**  
 
 **`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`**
 

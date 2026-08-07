@@ -87,7 +87,7 @@
 <br>
 
 # 🪞 ЗЕРКАЛО
-#
+
 *Огромное спасибо репозиторию [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), за эту идею*
 #
 ⚪ **01 WHITELIST [ЗЕРКАЛО]**  

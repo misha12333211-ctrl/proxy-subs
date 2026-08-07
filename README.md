@@ -140,7 +140,7 @@
 * `1.1.1.1` *(Cloudflare)*
 * `77.88.8.8` *(Yandex)*
 * `dns.alidns.com` *(AliDNS)*
-* `https://dns.astracat.ru/DNS-QUERY` *
+* `https://dns.astracat.ru/DNS-QUERY` 
 
 ---
 

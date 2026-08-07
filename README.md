@@ -141,7 +141,6 @@
 * `77.88.8.8` *(Yandex)*
 * `dns.alidns.com` *(AliDNS)*
 * `https://dns.astracat.ru/DNS-QUERY`
----
 
 ### 📱 Настройка приложений
 

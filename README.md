@@ -236,6 +236,8 @@
 * 💬 **Telegram:** [MiGiTi Official Channel](https://t.me/MiGiTi_official_channel)
 * 📧 **Email:** [Fageter@protonmail.com](mailto:Fageter@protonmail.com)
 
+<br>
+
 -----
 
 <br>

@@ -145,7 +145,7 @@
 ### 📱 Настройка приложений
 
 <details>
-<summary>📱 <b>v2rayNG</b> -- [<a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Скачать Releases</a>]</summary>
+<summary>📱 <b>v2rayNG</b> — [<a href="https://github.com/2dust/v2rayNG/releases/tag/2.2.6">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -167,7 +167,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Husi</b> -- [<a href="https://github.com/xchacha20-poly1305/husi/releases">Скачать Releases</a>]</summary>
+<summary>📱 <b>Husi</b> — [<a href="https://github.com/xchacha20-poly1305/husi/releases">Скачать Releases</a>]</summary>
 
 <br>
 
@@ -188,7 +188,7 @@
 </details>
 
 <details>
-<summary>📱 <b>Exclave</b> -- [<a href="https://github.com/ExclaveNetwork/Exclave/releases">Скачать Releases</a>]</summary>
+<summary>📱 <b>Exclave</b> — [<a href="https://github.com/ExclaveNetwork/Exclave/releases">Скачать Releases</a>]</summary>
 
 <br>
 

@@ -70,7 +70,7 @@
 
 🚀 **GO ENGINE**
 **`https://raw.githubusercontent.com/misha12333211-ctrl/v2ray-aggregator-for-russia/refs/heads/main/sub.txt`**
-$
+#
 ⚪ **WHITELIST** 
 
 **`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`**

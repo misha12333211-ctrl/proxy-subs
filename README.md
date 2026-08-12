@@ -3,10 +3,6 @@
 
   # 🌐 MiGiTi Vless Agregator
 
-<div align="center">
-
-  # 🌐 MiGiTi Vless Aggregator
-
   [![Stars](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github)](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)
   [![Last Commit](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git)](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)
   [![Visitors](https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&style=for-the-badge&color=007EC6&label=VISITORS)](https://github.com/misha12333211-ctrl/proxy-subs)

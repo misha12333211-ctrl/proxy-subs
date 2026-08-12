@@ -1,31 +1,28 @@
 <div align="center">
 
-  # 🌐 MiGiTi Vless Agregator
+  # 🌐 MiGiTi Vless Aggregator
 
-  <p align="center">
-    <a href="https://github.com/misha12333211-ctrl/proxy-subs/stargazers">
-      <img src="https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github" alt="Stars">
-    </a>  <br>
-    <a href="https://github.com/misha12333211-ctrl/proxy-subs/commits/main">
-      <img src="https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git" alt="Last Commit">
-    </a>
-    <a href="https://github.com/misha12333211-ctrl/proxy-subs">
-      <img src="https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&style=for-the-badge&color=007EC6&label=VISITORS" alt="Visitors Count">
-    </a>
-    <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage" alt="Status">
-  </p>
+  [![Stars](https://img.shields.io/github/stars/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=github)](https://github.com/misha12333211-ctrl/proxy-subs/stargazers)
+  [![Last Commit](https://img.shields.io/github/last-commit/misha12333211-ctrl/proxy-subs?style=for-the-badge&color=007EC6&logo=git)](https://github.com/misha12333211-ctrl/proxy-subs/commits/main)
+  [![Visitors](https://komarev.com/ghpvc/?username=misha12333211-ctrl-proxy-subs&style=for-the-badge&color=007EC6&label=VISITORS)](https://github.com/misha12333211-ctrl/proxy-subs)
+  [![Status](https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge&logo=statuspage)](#)
 
-  <p align="center">
-    <b>🚀 Автоматизированный агрегатор публичных конфигураций V2Ray / Xray с проверкой доступности и фильтрацией пинга.</b>
-  </p>
+  **🚀 Автоматизированный агрегатор публичных конфигураций V2Ray / Xray с проверкой доступности и фильтрацией пинга**
 
-  <p align="center">
-    🌐 <a href="https://misha12333211-ctrl.github.io/MiGiTi/"><b>Официальный сайт</b></a> •
-    💬 <a href="https://t.me/MiGiTi_official_channel"><b>Telegram Канал</b></a> •
-    📧 <a href="mailto:Fageter@protonmail.com"><b>Связаться по Email</b></a>
-  </p>
+  🌐 [Официальный сайт](https://misha12333211-ctrl.github.io/MiGiTi/) • 💬 [Telegram Канал](https://t.me/MiGiTi_official_channel) • 📧 [Email](mailto:Fageter@protonmail.com)
 
 </div>
+
+---
+
+## 📖 Навигация
+- [📌 О проекте](#-о-проекте)
+- [🔄 Обновления и чистка](#-обновления-и-чистка)
+- [📡 Ссылки на подписки](#-ссылки-на-подписки)
+- [🪞 Зеркала подписок](#-зеркала-подписок)
+- [⚙️ Настройки клиентов](#️-настройки-клиентов)
+- [💳 Поддержка и Контакты](#-поддержка-и-контакты)
+- [⚖️ Отказ от ответственности](#️-отказ-от-ответственности)
 
 ---
 
@@ -37,91 +34,64 @@
 
 > [!NOTE]
 > **🚀 Проект активно развивается!**  
-> Нам очень нужна ваша поддержка и обратная связь! Делитесь фидбеком, отправляйте отзывы в Telegram-канал и предлагайте идеи по улучшению. <mark>Сейчас проект работает как агрегатор и фильтр публичных узлов, но при вашей поддержке планируется создание своей собственной подписки.<mark>
+> Нам очень нужна ваша поддержка и обратная связь! Делитесь фидбеком, отправляйте отзывы в Telegram-канал и предлагайте идеи по улучшению. Сейчас проект работает как агрегатор и фильтр публичных узлов, но при вашей поддержке планируется создание собственной подписки.
 
-<br>
+---
 
-## 🔄 АКТУАЛИЗАЦИЯ И ЧАСТОТА ОБНОВЛЕНИЙ
+## 🔄 ОБНОВЛЕНИЯ И ЧИСТКА
 
 Подписки и списки серверов автоматически пересобираются и обновляются каждые **2–3 часа**. 
 
-* **Лимит серверов:** Каждая подписка содержит до **250 отобранных серверов**.
-* **Строгая дедупликация:** Ни один сервер не повторяется между подписками.
-* **История доступности (Uptime Streak):** Серверы, сохраняющие стабильную работу на протяжении нескольких циклов проверки подряд, получают приоритет в ранжировании.
+* 📊 **Лимит серверов:** Каждая подписка содержит до **250 отобранных серверов**.
+* 🧹 **Строгая дедупликация:** Ни один сервер не повторяется между подписками.
+* 📈 **История доступности (Uptime Streak):** Серверы, сохраняющие стабильную работу на протяжении нескольких циклов проверки подряд, получают приоритет в ранжировании.
 
-<br>
+### 🛠️ Этапы обработки узлов:
+1. 🔎 **Агрегация** — Сбор из 40+ публичных Open-Source репозиториев.
+2. ⚡ **Ping Verification** — Экспресс-измерение задержки.
+3. 🧹 **Дедупликация** — Очистка дубликатов по комбинациям IP, портов, ключей шифрования и UUID.
+4. ⚪ **Валидация SNI** — Фильтрация и сопоставление доменов с белыми списками (Yandex, VK, Gosuslugi и др.).
+5. 🎯 **Deep Protocol Verification** — Проверка реального прохождения трафика к заблокированным сервисам.
 
-## 🛠️ КАК ОТБИРАЮТСЯ И ЧИСТЯТСЯ СЕРВЕРЫ
+---
 
-Сервера в подписке проходят многоэтапную обработку:
-
--  🔎 **Агрегация** -- Сбор из 40+ публичных Open-Source репозиториев.
--  ⚡ **Ping Verification** -- Измерение задержки.
--  🧹 **Дедупликация** -- Очистка дубликатов по комбинациям IP, портов, ключей шифрования и UUID.
--  ⚪ **Валидация SNI** -- Фильтрация и сопоставление доменов с белыми списками (Yandex, VK, Gosuslugi и др.).
--  🎯 **Deep Protocol Verification** -- Проверка реального прохождения трафика к заблокриованным сервисам.
-
-<br>
-
-# 📡 ОБЫЧНЫЕ ПОДПИСКИ
+## 📡 ССЫЛКИ НА ПОДПИСКИ
 
 > [!TIP]
-> **Как использовать:** Выделите нужную ссылку, скопируйте её и вставьте в строку добавления подписки в вашем клиенте.
-#
-🚀 **GO ENGINE**
+> **Как использовать:** Нажмите на ссылку подписки, скопируйте URL из адресной строки и вставьте в ваш клиент.
 
-**`https://raw.githubusercontent.com/misha12333211-ctrl/v2ray-aggregator-for-russia/refs/heads/main/sub.txt`**
-#
-⚪ **WHITELIST** 
+| Название | Описание | Прямая ссылка |
+| :--- | :--- | :--- |
+| 🚀 **GO ENGINE** | Базовый агрегированный список | [Открыть sub.txt](https://raw.githubusercontent.com/misha12333211-ctrl/v2ray-aggregator-for-russia/refs/heads/main/sub.txt) |
+| ⚪ **WHITELIST** | Фильтрация под доступ к RU-сервисам | [Открыть 1.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt) |
+| ⚡ **FAST PING** | Узлы с минимальным пингом | [Открыть 2.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt) |
+| 🥷 **STEALTH NEXTGEN** | Конфигурации для обхода блокировок | [Открыть 3.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt) |
+| 🌐 **UNIVERSAL** | Универсальная подписка | [Открыть 4.txt](https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt) |
 
-**`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt`**
-#
-⚡ **FAST PING** 
+---
 
-**`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt`**
-#
-🥷 **STEALTH NEXTGEN** 
+## 🪞 ЗЕРКАЛА ПОДПИСКИ
 
-**`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt`**
-#
-🌐 **UNIVERSAL** 
+*Идея обхода блокировок ссылок через переводчики взята из репозитория [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia).*
 
-**`https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt`**
+- ⚪ **WHITELIST [ЗЕРКАЛО]:** `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`
+- ⚡ **FAST PING [ЗЕРКАЛО]:** `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`
+- 🥷 **STEALTH NEXTGEN [ЗЕРКАЛО]:** `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`
+- 🌐 **UNIVERSAL [ЗЕРКАЛО]:** `https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`
 
-<br>
+---
 
-# 🪞 ЗЕРКАЛО
+## ⚙️ НАСТРОЙКИ КЛИЕНТОВ ПРИ ЖЕСТКИХ БЛОКИРОВКАХ
 
-*Огромное спасибо репозиторию [vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), за эту идею*
-#
-⚪ **WHITELIST [ЗЕРКАЛО]**  
-
-**`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`**
-#
-⚡ **FAST PING [ЗЕРКАЛО]**  
-
-**`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/2.txt&lang=de-de`**
-#
-🥷 **STEALTH NEXTGEN [ЗЕРКАЛО]**  
-
-**`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/3.txt&lang=de-de`**
-#
-🌐 **UNIVERSAL [ЗЕРКАЛО]**  
-
-**`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/4.txt&lang=de-de`**
-
-<br>
-
-# ⚙️ НАСТРОЙКИ КЛИЕНТОВ ПРИ САМЫХ ЖЕСТКИХ БЛОКИРОВКАХ
-
-Для стабильной работы соединений при очень жёстких блокировках рекомендуется применить следующие настройки в вашем приложении.
+Для стабильной работы соединений при активных ограничениях рекомендуется применить следующие параметры в вашем клиенте.
 
 ### 🌐 Рекомендуемые DNS-серверы:
-*(Выберите один из рабочих вариантов для вашего провайдера)*
 * `1.1.1.1` *(Cloudflare)*
 * `77.88.8.8` *(Yandex)*
 * `dns.alidns.com` *(AliDNS)*
 * `https://dns.astracat.ru/DNS-QUERY`
+
+---
 
 ### 📱 Настройка приложений
 
@@ -135,7 +105,7 @@
 1. **Базовые настройки:**
    * **Fake DNS:** 🟢 Включить
    * **MTU:** `1281`
-   * **DNS (Удалённый и Внутренний):** Укажите один из рекомендованных DNS из списка выше(смотря какой будет работать).
+   * **DNS (Удалённый и Внутренний):** Укажите один из рекомендованных DNS из списка выше.
 2. **Маршрутизация:**
    * **Режим маршрутизации:** `ipifnonmatch`
    * **Поставщик правил:** `loyalsolider`
@@ -158,7 +128,7 @@
    * **Стек (TUN):** `gvisor`
    * **MTU:** `1281`
    * **Fake DNS:** 🟢 Включить *(отметьте опцию «Применять для каждого домена»)*
-   * **DNS-сервер:** Один из рекомендованных выше(смотря какой будет работать).
+   * **DNS-сервер:** Один из рекомендованных выше.
 2. **Маршрутизация:**
    * **Режим:** `ipifnonmatch`
    * **Поставщик правил:** `loyalsolider`
@@ -178,7 +148,7 @@
 1. **Сеть и перехват:**
    * **Стек:** `gvisor`
    * **MTU:** `1281`
-   * **DNS:** Введите выбранный DNS-сервер(смотря какой будет работать) и включите **Маршрутизацию DNS**.
+   * **DNS:** Введите выбранный DNS-сервер и включите **Маршрутизацию DNS**.
    * **Перехват & Анализ:** Включите *Перехват DNS*, *Анализ трафика* и *Переопределить адрес назначения*.
    * **FakeDNS:** 🟢 Включить.
 2. **Маршрутизация и протоколы:**
@@ -191,35 +161,24 @@
 
 </details>
 
-<br>
+---
 
-# 💳 ПОДДЕРЖАТЬ ПРОЕКТ:
+## 💳 ПОДДЕРЖКА И КОНТАКТЫ
 
-Проект полностью бесплатный, но отбор и поддержка базы требуют времени. Если проект вам пригодился, буду благодарен за поддержку:
+Проект полностью бесплатный, но отбор и поддержка базы требуют времени и ресурсов. Если проект вам пригодился, будем благодарны за поддержку:
 
 * 🟢 **Сбербанк:** `2202208876492068`
-* 💎 **TON Wallet:**  
-`UQB4NY_1ula9p2YJpM0kHPEjbJ0mOUK1JNwYUNu9_T2T1Abt`
+* 💎 **TON Wallet:** `UQB4NY_1ula9p2YJpM0kHPEjbJ0mOUK1JNwYUNu9_T2T1Abt`
 
 > [!WARNING]
-> **Важное примечание о донатах:**  
-> Все финансовые пожертвования (донаты) являются **строго добровольными** и безвозмездными (Donation / Gift). 
-> * Автор проекта **не несёт ответственности** за отправленные средства.
-> * Пожертвования **не являются оплатой услуг**, не дают никаких коммерческих гарантий, обязательств, персонального обслуживания или подписки на закрытые/платные сервисы.
-> * Возврат средств (refund) после отправки не производится. Спасибо за понимание и поддержку!
+> **Дисклеймер по пожертвованиям:**  
+> Все финансовые пожертвования являются строго добровольными (Donation / Gift). Они не являются оплатой услуг, не дают коммерческих гарантий, привилегий или обязательств по персональному обслуживанию. Возврат средств не предусмотрен.
 
-# 📬 КОНТАКТЫ:
-
-Если у вас возникли вопросы, вы нашли неработающий узел или хотите предложить идею:
-
+### 📬 Связь с автором:
 * 💬 **Telegram:** [MiGiTi Official Channel](https://t.me/MiGiTi_official_channel)
 * 📧 **Email:** [Fageter@protonmail.com](mailto:Fageter@protonmail.com)
 
-<br>
-
------
-
-<br>
+---
 
 ## ⚖️ ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ
 
@@ -227,6 +186,8 @@
 2. Автор проекта не предоставляет платных услуг, не владеет приватной сетью серверов в рамках данного репозитория и использует данные исключительно из публичных открытых источников.
 3. Пользователь несёт самостоятельную ответственность за соблюдение местного законодательства при использовании любых сетевых конфигураций и программного обеспечения.
 
-
 ---
-<sub>MiGiTi Proxy Subscriptions • Open Source Project • ©2026</sub>
+
+<div align="center">
+  <sub>MiGiTi Proxy Subscriptions • Open Source Project • © 2026</sub>
+</div>

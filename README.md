@@ -14,18 +14,6 @@
 
 </div>
 
-  <p align="center">
-    <b>🚀 Автоматизированный агрегатор публичных конфигураций V2Ray / Xray с проверкой доступности и фильтрацией пинга.</b>
-  </p>
-
-  <p align="center">
-    🌐 <a href="https://misha12333211-ctrl.github.io/MiGiTi/"><b>Официальный сайт</b></a> •
-    💬 <a href="https://t.me/MiGiTi_official_channel"><b>Telegram Канал</b></a> •
-    📧 <a href="mailto:Fageter@protonmail.com"><b>Связаться по Email</b></a>
-  </p>
-
-</div>
-
 ---
 
 ## 📌 О ПРОЕКТЕ

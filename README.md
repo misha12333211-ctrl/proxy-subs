@@ -57,7 +57,7 @@
 #
 🚀 **GO ENGINE**
 
-**`https://raw.githubusercontent.com/misha12333211-ctrl/v2ray-aggregator-for-russia/refs/heads/main/sub.txt`**
+**`https://flat-hill-2415.fatago78.workers.dev/`**
 #
 ⚪ **WHITELIST** 
 
@@ -83,7 +83,7 @@
 #
 🚀 **GO ENGINE**
 
-**`https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/misha12333211-ctrl/proxy-subs/refs/heads/main/1.txt&lang=de-de`**
+**`https://translate.yandex.ru/translate?url=https://flat-hill-2415.fatago78.workers.dev/&lang=de-de`**
 #
 ⚪ **WHITELIST [ЗЕРКАЛО]**  
 
